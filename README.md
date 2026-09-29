@@ -50,7 +50,8 @@ The included scripts may refer to artifacts from the original analysis workspace
 4. Replay saved checkpoints and verify predictions and reported aggregate metrics.
 5. Confirm the manifest fingerprints listed in `INTEGRITY_RECORDS.json`.
 
-Exact environment locking and the complete primary training runner must be added before the first public release.
+
+The complete RQ1 training, validation, and held-out evaluation code is available in [`rq1_training/`](rq1_training/). RQ2’s complete primary training runner and the final environment lock remain required before the first public release.
 
 ## Citation
 
