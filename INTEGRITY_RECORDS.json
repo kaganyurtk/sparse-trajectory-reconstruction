@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "manuscript_title": "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets",
+  "records": {
+    "rq1_locked_manifest": {
+      "sha256": "89728925fd31f436dbb9438556157e7a030ce7ee881b557cdad434257b2fa64b",
+      "verification": "98 main runs completed and replayed"
+    },
+    "iridium_family_manifest": {
+      "sha256": "6a536dcb970f45ceac5987fa2e4f29ef006d9d3dedb7e3263dc1d93a85028813",
+      "verification": "75 runs completed and replayed"
+    },
+    "iridium_mask_record": {
+      "sha256": "984d0f748060ca8f58d1da3cb8084cad0dd56f63442dc86b91fab6d99abfe8a9",
+      "verification": "No original NEXT-5 test trajectories used as training inputs"
+    },
+    "rq2_reconstruction_v1_1": {
+      "sha256": "9efc8c68fc63ac7603e471e101571417017ac5bfb51398fa2f718396761f8782",
+      "verification": "10 checkpoints replayed within 1e-12"
+    }
+  },
+  "release_status": "private archival draft; verify machine-readable source records before public v1.0.0"
+}
+

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or analysis package, please cite the archived release and the associated article."
+title: "Sparse trajectory reconstruction under kinematic constraints"
+type: software
+authors:
+  - family-names: "Yurtkölesi"
+    given-names: "Kağan"
+    affiliation: "Department of Aerospace Engineering, Izmir University of Economics"
+    email: "kagan.yurtkolesi@std.iue.edu.tr"
+version: 0.1.0
+repository-code: "https://github.com/kaganyurtk/sparse-trajectory-reconstruction"
+keywords:
+  - rocket telemetry
+  - trajectory reconstruction
+  - physics-informed machine learning
+  - kinematic constraints
+  - sparse observations
+

@@ -1,0 +1,2973 @@
+{
+  "completed_runs": 75,
+  "folds": [
+    {
+      "held_out_flight": "iridium_next_1",
+      "upper_bound_only_favored": false,
+      "upper_bound_only_minus_nn": 0.016902518073831946,
+      "variants": {
+        "full_kcnn": {
+          "seed_mean": {
+            "composite": 0.12512325635567362,
+            "h_rmse_m": 1017.4591959145622,
+            "v_rmse_m_s": 50.71789541907678
+          },
+          "seed_records": [
+            {
+              "composite": 0.06734175566787007,
+              "h_rmse_m": 692.0829464598514,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 23.11393865962771,
+              "variant": "full_kcnn",
+              "weights_sha256": "8efabd751b5b994cfd82fe417cdac1f606222dfc6490faf5d70dcd05eba4d8d3"
+            },
+            {
+              "composite": 0.16552251754064495,
+              "h_rmse_m": 1156.2090094614894,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 72.58687592591032,
+              "variant": "full_kcnn",
+              "weights_sha256": "fec1aaf8101f45cb2d2547cb964a352a9e924a9cdc6a5d4b36231a55af61e1e1"
+            },
+            {
+              "composite": 0.15610525944323786,
+              "h_rmse_m": 1301.047400804451,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.09090909090909091,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 62.35992655955341,
+              "variant": "full_kcnn",
+              "weights_sha256": "40728588924349b28df749015dd686814dbadbd7d7d7fd71cfb7560c29d46669"
+            },
+            {
+              "composite": 0.13981554574943042,
+              "h_rmse_m": 1115.6787642591842,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.10743801652892562,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 57.28856876023974,
+              "variant": "full_kcnn",
+              "weights_sha256": "ccca699d226b102f4d3e76a40b54b14f3e8cc39c85fbb95fb63c73cb68f6f2d8"
+            },
+            {
+              "composite": 0.09683120337718484,
+              "h_rmse_m": 822.2778585878353,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 38.24016719005272,
+              "variant": "full_kcnn",
+              "weights_sha256": "5f612b84f96963e55867716b6548ce5cfe31db1ab4766160e843447d953052e3"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.0416743034456232,
+            "h_rmse_m": 251.63779647920748,
+            "v_rmse_m_s": 19.84083589579381
+          }
+        },
+        "nn": {
+          "seed_mean": {
+            "composite": 0.09599697168036112,
+            "h_rmse_m": 1312.328927399037,
+            "v_rmse_m_s": 23.51927068692962
+          },
+          "seed_records": [
+            {
+              "composite": 0.07894969983409786,
+              "h_rmse_m": 993.4489042912169,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.34710743801652894,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 21.827499516009397,
+              "variant": "nn",
+              "weights_sha256": "1a49b324dcb3e6567452805c20f63858e362ab0c65aa9870f1861fa18252ca6a"
+            },
+            {
+              "composite": 0.10711707169747528,
+              "h_rmse_m": 1575.1200962811658,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.4297520661157025,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 23.036939970341695,
+              "variant": "nn",
+              "weights_sha256": "31eeacd576a528f26e5b38dc2337f5a27b07694a6c4f492b5ce381fa25e42695"
+            },
+            {
+              "composite": 0.09602572269178739,
+              "h_rmse_m": 1157.6297937384193,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.371900826446281,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 28.016039622188504,
+              "variant": "nn",
+              "weights_sha256": "0f5ba0309a2c958c49880b4cdc85efd067cc4c4aea16a66373788ea45553ee7f"
+            },
+            {
+              "composite": 0.11577452433572917,
+              "h_rmse_m": 1705.0471085758072,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.4628099173553719,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 24.822932413627438,
+              "variant": "nn",
+              "weights_sha256": "d9fd24d0f73a632055c3b5b797442d8394ff9f6d045b2f5c82de79ac85e40adb"
+            },
+            {
+              "composite": 0.08211783984271594,
+              "h_rmse_m": 1130.3987341085763,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.4049586776859504,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 19.892941912481067,
+              "variant": "nn",
+              "weights_sha256": "f5f4527d860b05109186136f81c90b19951afc08e889a9822c8805077c9af414"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.015795955321017092,
+            "h_rmse_m": 309.03141207348165,
+            "v_rmse_m_s": 3.0889099108779705
+          }
+        },
+        "upper_bound_only": {
+          "seed_mean": {
+            "composite": 0.11289948975419306,
+            "h_rmse_m": 894.0952899258925,
+            "v_rmse_m_s": 46.45681229288259
+          },
+          "seed_records": [
+            {
+              "composite": 0.0684500815056903,
+              "h_rmse_m": 705.1676140977175,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 23.445307820191832,
+              "variant": "upper_bound_only",
+              "weights_sha256": "04bdfdf6670f31bc2458bec95c4a05e9a5b5d820cede5a79d3aa6611ee0990d8"
+            },
+            {
+              "composite": 0.14695507858160894,
+              "h_rmse_m": 993.0128465626033,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 65.41421217945008,
+              "variant": "upper_bound_only",
+              "weights_sha256": "23f89b0e53e0d2eb45939e4206f7393df9c5a6e779a2d5ed12c0e90a335dd5d2"
+            },
+            {
+              "composite": 0.11387169303052366,
+              "h_rmse_m": 831.8868495981585,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 48.880603156833224,
+              "variant": "upper_bound_only",
+              "weights_sha256": "bafc29a901153aa5652c9f74d82c090a59412ec4c4e2e5578f9bb72442a0d218"
+            },
+            {
+              "composite": 0.1396506267545986,
+              "h_rmse_m": 1114.3935527315205,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.10743801652892562,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 57.22010305024451,
+              "variant": "upper_bound_only",
+              "weights_sha256": "064cb1e8ab20953ea0d9bb39978495d48ec571a8bf2757788654636ed5cc3348"
+            },
+            {
+              "composite": 0.09556996889854369,
+              "h_rmse_m": 826.0155866394625,
+              "held_out_flight": "iridium_next_1",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11066.88029314001,
+                320.3723745008461
+              ],
+              "v_rmse_m_s": 37.32383525769331,
+              "variant": "upper_bound_only",
+              "weights_sha256": "b02aa02b681e7f4820f99557cb0675e5c037a46e87c076e3d81a228c2311d9b6"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.03221961292107433,
+            "h_rmse_m": 160.0893581313011,
+            "v_rmse_m_s": 16.53818920076253
+          }
+        }
+      }
+    },
+    {
+      "held_out_flight": "iridium_next_3",
+      "upper_bound_only_favored": false,
+      "upper_bound_only_minus_nn": 0.03706511723284281,
+      "variants": {
+        "full_kcnn": {
+          "seed_mean": {
+            "composite": 0.21196099647403505,
+            "h_rmse_m": 2345.40850402276,
+            "v_rmse_m_s": 67.80018256508751
+          },
+          "seed_records": [
+            {
+              "composite": 0.22354456551341761,
+              "h_rmse_m": 2612.8208956366534,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.0743801652892562,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 67.47689727442874,
+              "variant": "full_kcnn",
+              "weights_sha256": "902c2b3c62b81d31550ea7bced6781af44a9069aa030575dfc774621c32c1f25"
+            },
+            {
+              "composite": 0.22675595466704446,
+              "h_rmse_m": 2396.499545289994,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 75.79107050447848,
+              "variant": "full_kcnn",
+              "weights_sha256": "cd8c825b5d737e01b7c67c54fc492890034adadf836b16f6b05e6371b7497f85"
+            },
+            {
+              "composite": 0.20056812805392576,
+              "h_rmse_m": 2123.312466996478,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 66.93438508794958,
+              "variant": "full_kcnn",
+              "weights_sha256": "f3a23f38b3f79dd0d79a705f42e1c1ebf88fc019808a90f1d60083ab65464eb1"
+            },
+            {
+              "composite": 0.211403220807801,
+              "h_rmse_m": 2234.1081862267097,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.08264462809917356,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 70.66343924310375,
+              "variant": "full_kcnn",
+              "weights_sha256": "e9edcbe97ae9dd8a095cb9a4ea0d95ac980367571c46959fe994f7068566d831"
+            },
+            {
+              "composite": 0.1975331133279863,
+              "h_rmse_m": 2360.3014259639654,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 58.13512071547703,
+              "variant": "full_kcnn",
+              "weights_sha256": "fff65edbc6ae8f93707dc420e3f1f76d062e982442ce8c38e20612e6938342d0"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.013146693845135006,
+            "h_rmse_m": 184.42877433758855,
+            "v_rmse_m_s": 6.448256897632867
+          }
+        },
+        "nn": {
+          "seed_mean": {
+            "composite": 0.17404520161926124,
+            "h_rmse_m": 2092.2336665256616,
+            "v_rmse_m_s": 50.85832388466933
+          },
+          "seed_records": [
+            {
+              "composite": 0.1891262367607383,
+              "h_rmse_m": 2222.1080188482933,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.35537190082644626,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 56.75287455816308,
+              "variant": "nn",
+              "weights_sha256": "48ce241ace0be92a87b147995351901ea9b3f984cb90543afbafea521d8cf762"
+            },
+            {
+              "composite": 0.17839507726182585,
+              "h_rmse_m": 2297.158668868945,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.38016528925619836,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 47.713258007713705,
+              "variant": "nn",
+              "weights_sha256": "12d514106515704f599ae18b3f5dd022c09066d9ab9abb545e78b47e7a699792"
+            },
+            {
+              "composite": 0.15625560587439302,
+              "h_rmse_m": 1853.6011461498624,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.3305785123966942,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 46.37692786803573,
+              "variant": "nn",
+              "weights_sha256": "50341c0534bf215cf7934f61aae30831af190a1521cd46b2cee62940eddc40d2"
+            },
+            {
+              "composite": 0.20271743626256988,
+              "h_rmse_m": 2347.2826519603623,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.4297520661157025,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 61.829874013413075,
+              "variant": "nn",
+              "weights_sha256": "cabce2ccccd6f8c393a39fac63cb6dde9445c96a2296eaa29f5ec60eb092d383"
+            },
+            {
+              "composite": 0.14373165193677917,
+              "h_rmse_m": 1741.0178468008476,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.3884297520661157,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 41.61868497602108,
+              "variant": "nn",
+              "weights_sha256": "2f551212655e03434fc84cc92cdc3ae8e688e9899e2feb268409c01a01068b9e"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.023999151493351457,
+            "h_rmse_m": 275.7760054617548,
+            "v_rmse_m_s": 8.222924003364303
+          }
+        },
+        "upper_bound_only": {
+          "seed_mean": {
+            "composite": 0.21111031885210405,
+            "h_rmse_m": 2377.6400387291615,
+            "v_rmse_m_s": 66.32317690020484
+          },
+          "seed_records": [
+            {
+              "composite": 0.22399371701336301,
+              "h_rmse_m": 2632.073682711364,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.0743801652892562,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 67.20732446769705,
+              "variant": "upper_bound_only",
+              "weights_sha256": "b04045a4ef46482e91c74e1ea61c2df49dc3c48a58d43af574fd7c430e7fbde5"
+            },
+            {
+              "composite": 0.21996385582172406,
+              "h_rmse_m": 2380.628490265863,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 71.90317260779888,
+              "variant": "upper_bound_only",
+              "weights_sha256": "d719d5568f5c410d783a2d3554ae68ea7e424286cff472078fe4098351825d21"
+            },
+            {
+              "composite": 0.20271702075879616,
+              "h_rmse_m": 2261.0735744980275,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 64.32389021111055,
+              "variant": "upper_bound_only",
+              "weights_sha256": "33a039e410a495d4d83c571aa951ea7bc60a8b902759112fb8a0fd0adbef8b1b"
+            },
+            {
+              "composite": 0.21140971971882422,
+              "h_rmse_m": 2234.1392660750976,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.08264462809917356,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 70.66669945916216,
+              "variant": "upper_bound_only",
+              "weights_sha256": "d53623afd01e5d1306563b2383b7315f71805f5fa3a594f083b4c770aeb91afb"
+            },
+            {
+              "composite": 0.1974672809478128,
+              "h_rmse_m": 2380.285180095454,
+              "held_out_flight": "iridium_next_3",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11060.441923487386,
+                320.0111107148153
+              ],
+              "v_rmse_m_s": 57.51479775525559,
+              "variant": "upper_bound_only",
+              "weights_sha256": "65be9aec2ea990f2c818550fb3b7173eb00e20cb784f85891155de3d8b3f5a57"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.011191923897101044,
+            "h_rmse_m": 157.26778050602002,
+            "v_rmse_m_s": 5.7525852376216005
+          }
+        }
+      }
+    },
+    {
+      "held_out_flight": "iridium_next_4",
+      "upper_bound_only_favored": true,
+      "upper_bound_only_minus_nn": -0.057321073483832724,
+      "variants": {
+        "full_kcnn": {
+          "seed_mean": {
+            "composite": 0.21943380015431663,
+            "h_rmse_m": 1449.970880822407,
+            "v_rmse_m_s": 99.00991536845495
+          },
+          "seed_records": [
+            {
+              "composite": 0.15863850917552358,
+              "h_rmse_m": 1002.1675711150009,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.08264462809917356,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 72.91465734597095,
+              "variant": "full_kcnn",
+              "weights_sha256": "200f07fcb04b87e3abd6f15aeab134728f50bc4d6e5554fa18e16438a3ec877a"
+            },
+            {
+              "composite": 0.2754852297366882,
+              "h_rmse_m": 1905.1408879528758,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 121.84236494670773,
+              "variant": "full_kcnn",
+              "weights_sha256": "24bf13baf897ec4fca36746543fe55de288845e4c0716f56712959236f043d2e"
+            },
+            {
+              "composite": 0.239233713282637,
+              "h_rmse_m": 1666.1774414584343,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.0743801652892562,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 105.46867465026585,
+              "variant": "full_kcnn",
+              "weights_sha256": "f6a252ecebc2f9ee4a43db99031d75ae4240b9f0a5ca7862aec46cab9bff9ae0"
+            },
+            {
+              "composite": 0.23950489079502757,
+              "h_rmse_m": 1664.107453713703,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.09917355371900827,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 105.7029927872609,
+              "variant": "full_kcnn",
+              "weights_sha256": "8fa4a99068c54b013a55b2ff3fad6baa9b139b0976f1ea1d652693d71e98da6b"
+            },
+            {
+              "composite": 0.1843066577817068,
+              "h_rmse_m": 1012.2610498720209,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 89.12088711206938,
+              "variant": "full_kcnn",
+              "weights_sha256": "b59bf927dde82ed9951e45be0b8406399c849fc28e54853f260848a197a6d3af"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.04708139636333534,
+            "h_rmse_m": 415.90178660302814,
+            "v_rmse_m_s": 18.618465173407635
+          }
+        },
+        "nn": {
+          "seed_mean": {
+            "composite": 0.26535370245686757,
+            "h_rmse_m": 2429.462733916067,
+            "v_rmse_m_s": 100.1292280554753
+          },
+          "seed_records": [
+            {
+              "composite": 0.23534388063749456,
+              "h_rmse_m": 1932.6802309423306,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.32231404958677684,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 95.24208878273843,
+              "variant": "nn",
+              "weights_sha256": "677048cce34cb2474790d0bd89a13a69f5f4978b672d6708b4a80781e54e2160"
+            },
+            {
+              "composite": 0.28586459645968476,
+              "h_rmse_m": 2909.5037038609935,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.38016528925619836,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 99.39605132017189,
+              "variant": "nn",
+              "weights_sha256": "953019e9cc2465e1ec94eca6bbc0bb459fd36a92184d8da5f3070d95fc9fe6e1"
+            },
+            {
+              "composite": 0.2664228797420073,
+              "h_rmse_m": 2200.83663558819,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.3305785123966942,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 107.44466661089533,
+              "variant": "nn",
+              "weights_sha256": "6fe865af376b94f4aab40807723b58a7aa1a647ad9ccf16353d3fddf6c0422b6"
+            },
+            {
+              "composite": 0.30303471456889175,
+              "h_rmse_m": 3035.5585107740726,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.4049586776859504,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 106.77807142137185,
+              "variant": "nn",
+              "weights_sha256": "f5df974d3bd191d857aeb7e6953050681c12a7430635ff070d1aabbcd5b2d06b"
+            },
+            {
+              "composite": 0.23610244087625948,
+              "h_rmse_m": 2068.734588414749,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.34710743801652894,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 91.78526214219899,
+              "variant": "nn",
+              "weights_sha256": "cb41a53fbcf19e0cacf072e4414e6a0e00166a908e4c983e3c7ff04ad49dc049"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.02999134998768832,
+            "h_rmse_m": 506.699853612835,
+            "v_rmse_m_s": 6.923983768766838
+          }
+        },
+        "upper_bound_only": {
+          "seed_mean": {
+            "composite": 0.20803262897303484,
+            "h_rmse_m": 1307.156256014567,
+            "v_rmse_m_s": 95.82192346312367
+          },
+          "seed_records": [
+            {
+              "composite": 0.15605970082476822,
+              "h_rmse_m": 961.5477764761522,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.0743801652892562,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 72.43468877595976,
+              "variant": "upper_bound_only",
+              "weights_sha256": "6903d0b94e573036daac30e35802880a3a465c92d1119684414f95d6a2c77780"
+            },
+            {
+              "composite": 0.2495841098224539,
+              "h_rmse_m": 1593.857113978152,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 114.2183245636847,
+              "variant": "upper_bound_only",
+              "weights_sha256": "0c1b94bcb284600b8111e11c6779346cbb55226cdcb27bbeac3f3e9a89039f51"
+            },
+            {
+              "composite": 0.21250447926095595,
+              "h_rmse_m": 1326.9856656236598,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 98.12143580633987,
+              "variant": "upper_bound_only",
+              "weights_sha256": "84e6faf10d38946183c817e4927d4aeb20e5e732356ea787d748a24768425f1c"
+            },
+            {
+              "composite": 0.23901957793565654,
+              "h_rmse_m": 1660.1734990520297,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.09917355371900827,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 105.50509660060243,
+              "variant": "upper_bound_only",
+              "weights_sha256": "2cc42e8cc503ef00b9d07025329bf651262e164fa69798423a2e898b22d35079"
+            },
+            {
+              "composite": 0.18299527702133955,
+              "h_rmse_m": 993.2172249428403,
+              "held_out_flight": "iridium_next_4",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11085.609938324125,
+                321.38769356325116
+              ],
+              "v_rmse_m_s": 88.83007156903152,
+              "variant": "upper_bound_only",
+              "weights_sha256": "5f45314da2fdd98d5ac1f56c5b87d3231c6cf97db35dcc2b988c502e8b988a91"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.03884188546159702,
+            "h_rmse_m": 326.0424426678915,
+            "v_rmse_m_s": 16.072709103485945
+          }
+        }
+      }
+    },
+    {
+      "held_out_flight": "iridium_next_6",
+      "upper_bound_only_favored": false,
+      "upper_bound_only_minus_nn": 0.014630688423342142,
+      "variants": {
+        "full_kcnn": {
+          "seed_mean": {
+            "composite": 0.1454930407703098,
+            "h_rmse_m": 775.4922588792228,
+            "v_rmse_m_s": 71.2333374067314
+          },
+          "seed_records": [
+            {
+              "composite": 0.09279390587219104,
+              "h_rmse_m": 508.2436738741486,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.04132231404958678,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 45.03610110704857,
+              "variant": "full_kcnn",
+              "weights_sha256": "53f7ac5dc0f36db452674753436c74bd41989c6f3276042d0741dc713f6acebc"
+            },
+            {
+              "composite": 0.18962650711349924,
+              "h_rmse_m": 1010.4404308211203,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 92.84940726960345,
+              "variant": "full_kcnn",
+              "weights_sha256": "93c0832dad91caf02b9e1660ea8ddffced50f5301799775e88cece17899410b1"
+            },
+            {
+              "composite": 0.16751508067418422,
+              "h_rmse_m": 939.480003786872,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.0743801652892562,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 80.66329938587486,
+              "variant": "full_kcnn",
+              "weights_sha256": "e922e50c26c2833664fe021c1377772200ea8a8af7332592628d929c9d798a5c"
+            },
+            {
+              "composite": 0.16469996577342472,
+              "h_rmse_m": 917.9146452274648,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 79.47532949660834,
+              "variant": "full_kcnn",
+              "weights_sha256": "fe26231ec989623cbc58f05bccc83566af921b57169e051984074b5147005c8a"
+            },
+            {
+              "composite": 0.1128297444182498,
+              "h_rmse_m": 501.382540686508,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.04132231404958678,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 58.14254977452172,
+              "variant": "full_kcnn",
+              "weights_sha256": "80da48cb35e5da2498c1327dc3ef9b056bcb9215f89214fad78ee3ff3fdaccde"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.04076066979534674,
+            "h_rmse_m": 249.4667833133138,
+            "v_rmse_m_s": 19.246902370428884
+          }
+        },
+        "nn": {
+          "seed_mean": {
+            "composite": 0.11800600515685766,
+            "h_rmse_m": 1035.1835036231148,
+            "v_rmse_m_s": 45.992539856029225
+          },
+          "seed_records": [
+            {
+              "composite": 0.08543639641749029,
+              "h_rmse_m": 550.098954374403,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.371900826446281,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 39.082122342524436,
+              "variant": "nn",
+              "weights_sha256": "ba1d1a2e9a1f0883823ce2a58d36bb0ab53cb18e41b6bf537e85c6b34202f105"
+            },
+            {
+              "composite": 0.14776291153230345,
+              "h_rmse_m": 1451.8844970017174,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.4214876033057851,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 53.074656616987504,
+              "variant": "nn",
+              "weights_sha256": "58cad32fb2c074434c7fee234a261875519fbed1905bafa7974b3260289e8204"
+            },
+            {
+              "composite": 0.11114484992238843,
+              "h_rmse_m": 850.9568245116095,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.35537190082644626,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 46.91656738283533,
+              "variant": "nn",
+              "weights_sha256": "e97e42b76ecaa28b802242792457ea34bbde7496e175a241ee0c57b20045d7cd"
+            },
+            {
+              "composite": 0.1491572922081919,
+              "h_rmse_m": 1557.1978338020433,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.4462809917355372,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 50.917981963937265,
+              "variant": "nn",
+              "weights_sha256": "0b5d0c88594972b0a4175653c5e7cd9de7e38508cb2a3459629bae8272de42b5"
+            },
+            {
+              "composite": 0.09652857570391421,
+              "h_rmse_m": 765.7794084258011,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.39669421487603307,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 39.971370973861625,
+              "variant": "nn",
+              "weights_sha256": "81913f87a76a50a2e39f7b56df9f62b549b09524cd09000da1e82ca7e22b1c0b"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.029261796777047003,
+            "h_rmse_m": 443.8366069062556,
+            "v_rmse_m_s": 6.310279897972679
+          }
+        },
+        "upper_bound_only": {
+          "seed_mean": {
+            "composite": 0.1326366935801998,
+            "h_rmse_m": 655.6911115971428,
+            "v_rmse_m_s": 66.42628970694714
+          },
+          "seed_records": [
+            {
+              "composite": 0.09373016904688297,
+              "h_rmse_m": 529.857011250395,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.04132231404958678,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 45.012291811161006,
+              "variant": "upper_bound_only",
+              "weights_sha256": "a8f7f2674317c2c204dd49333aa4560cf8acb4c2dd2ce8c6fc3dd57a3800a704"
+            },
+            {
+              "composite": 0.16405707539651998,
+              "h_rmse_m": 780.5984045121594,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 83.04447554715699,
+              "variant": "upper_bound_only",
+              "weights_sha256": "69007b63548c63289a01cba9617f72cecfee1ca65c2e3b360cc5dd533646bb02"
+            },
+            {
+              "composite": 0.1280371161707458,
+              "h_rmse_m": 550.9381859275421,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 66.5018669765786,
+              "variant": "upper_bound_only",
+              "weights_sha256": "1f9d5ff2c52c77665dea996f33eeca5890d80ab692c5e015c2a1e8ab30669b0c"
+            },
+            {
+              "composite": 0.16478619960361063,
+              "h_rmse_m": 918.630658451283,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 79.51011245295454,
+              "variant": "upper_bound_only",
+              "weights_sha256": "7df41dc6b8e4901a84c8b93d50921f322e1ced7deb2dcd1c73dd8f154d4e2747"
+            },
+            {
+              "composite": 0.1125729076832397,
+              "h_rmse_m": 498.4312978443346,
+              "held_out_flight": "iridium_next_6",
+              "kinematic_violation_fraction": 0.04132231404958678,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11104.015311793353,
+                322.1082818444279
+              ],
+              "v_rmse_m_s": 58.062701746884606,
+              "variant": "upper_bound_only",
+              "weights_sha256": "98008946fb4e9fdf8be6af7e4eec58c2937755e47e683d5bbba305b2079146d8"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.03145735366793777,
+            "h_rmse_m": 184.5786298513472,
+            "v_rmse_m_s": 15.619420120788838
+          }
+        }
+      }
+    },
+    {
+      "held_out_flight": "iridium_next_8",
+      "upper_bound_only_favored": true,
+      "upper_bound_only_minus_nn": -0.041603675833057185,
+      "variants": {
+        "full_kcnn": {
+          "seed_mean": {
+            "composite": 0.18175739305518093,
+            "h_rmse_m": 1189.183686161632,
+            "v_rmse_m_s": 82.18886693438749
+          },
+          "seed_records": [
+            {
+              "composite": 0.14697845901362128,
+              "h_rmse_m": 693.5725596524311,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 74.26507107097213,
+              "variant": "full_kcnn",
+              "weights_sha256": "696c3a538f6ed73ccc7aee23c8b6ec63d1d1750b4d749e0176eec9376384fe8e"
+            },
+            {
+              "composite": 0.22096891259508186,
+              "h_rmse_m": 1480.9732579984077,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.049586776859504134,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 98.89412874274299,
+              "variant": "full_kcnn",
+              "weights_sha256": "b6f5a10d1d1d6540eb99ccf8c946ba5b4621b7b5faab5f1810272ba2c754edbe"
+            },
+            {
+              "composite": 0.19653627502253007,
+              "h_rmse_m": 1678.5101193290373,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 77.44281768515124,
+              "variant": "full_kcnn",
+              "weights_sha256": "8df26cdb38f04e22b56a3eb33f647f69bb2537c5b34b4d4e95d6a4c523a7184b"
+            },
+            {
+              "composite": 0.19221563692712867,
+              "h_rmse_m": 1297.3817128344213,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.04132231404958678,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 85.76025408426538,
+              "variant": "full_kcnn",
+              "weights_sha256": "5e4c81054f702965a1dee83054b19f18d7e243b023b22e9565d6edb51bdb096e"
+            },
+            {
+              "composite": 0.15208768171754278,
+              "h_rmse_m": 795.480780993863,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.05785123966942149,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 74.5820630888057,
+              "variant": "full_kcnn",
+              "weights_sha256": "41e004a1096b9c648e6ea8aba1c98baf0f39d0b0e3c8190aa78b44d021de5154"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.031445188446103854,
+            "h_rmse_m": 429.2204246253229,
+            "v_rmse_m_s": 10.428273675043561
+          }
+        },
+        "nn": {
+          "seed_mean": {
+            "composite": 0.21690402487099097,
+            "h_rmse_m": 1730.1942536485726,
+            "v_rmse_m_s": 89.02745381483201
+          },
+          "seed_records": [
+            {
+              "composite": 0.18095157984815358,
+              "h_rmse_m": 1069.2117901855704,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.36363636363636365,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 85.16321180156446,
+              "variant": "nn",
+              "weights_sha256": "339ff75fb83c3d5d5c559c31fda3089f98f7e75a12ac234703c0dbaa6fb71aec"
+            },
+            {
+              "composite": 0.23534517100674368,
+              "h_rmse_m": 1919.9003704752013,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.35537190082644626,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 95.35638238811265,
+              "variant": "nn",
+              "weights_sha256": "311e3e1aa74f30b93fc25382b528ceb8964386e7e969bb75f12194ee34b5e621"
+            },
+            {
+              "composite": 0.22385556217351216,
+              "h_rmse_m": 1932.7006224925533,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.2975206611570248,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 87.60013450871298,
+              "variant": "nn",
+              "weights_sha256": "95c1dec367383e96b163fe9d86eae2fbcb16cb397c7cabcbe42300f76955ce0a"
+            },
+            {
+              "composite": 0.22044388409632115,
+              "h_rmse_m": 2132.73392664931,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.33884297520661155,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 79.58501184087291,
+              "variant": "nn",
+              "weights_sha256": "e9ae2a408ee6c5e9db0e3b1aac7093cbaa4905650ffabe63869f365c87616fc1"
+            },
+            {
+              "composite": 0.2239239272302243,
+              "h_rmse_m": 1596.424558440229,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.36363636363636365,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 97.43252853489714,
+              "variant": "nn",
+              "weights_sha256": "94e8347e482aa11093b232583f575b61976a71deaebd7d5b9b040b7ca77b7360"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.020873354289961406,
+            "h_rmse_m": 416.4815652838387,
+            "v_rmse_m_s": 7.362573176306516
+          }
+        },
+        "upper_bound_only": {
+          "seed_mean": {
+            "composite": 0.1753003490379338,
+            "h_rmse_m": 1084.0794918659153,
+            "v_rmse_m_s": 81.09874413844517
+          },
+          "seed_records": [
+            {
+              "composite": 0.14506435675450285,
+              "h_rmse_m": 666.7312445223264,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.06611570247933884,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_11",
+              "seed": 11,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 73.81630516004233,
+              "variant": "upper_bound_only",
+              "weights_sha256": "12e1287c307c26cf828bbc38e6faccc2815445c7d05f3ffb95a0c3ed04c890c7"
+            },
+            {
+              "composite": 0.21508174998687246,
+              "h_rmse_m": 1415.179852689694,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.024793388429752067,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_29",
+              "seed": 29,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 97.02595869179868,
+              "variant": "upper_bound_only",
+              "weights_sha256": "1b93cff7a0acfd6eac08d12fa9ebc8fd96ef3b74925027a06c83a84060397701"
+            },
+            {
+              "composite": 0.17358987713287263,
+              "h_rmse_m": 1281.073041878355,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.04132231404958678,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_47",
+              "seed": 47,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 74.26536266800653,
+              "variant": "upper_bound_only",
+              "weights_sha256": "8f9fc433f296a87e9eea7b81d559ab42fceb8734da07e0a3cf508954a6bb104e"
+            },
+            {
+              "composite": 0.19221502640921076,
+              "h_rmse_m": 1297.3774565067863,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.04132231404958678,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_71",
+              "seed": 71,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 85.75998563749722,
+              "variant": "upper_bound_only",
+              "weights_sha256": "4f87b43454453babd24ac5c4a30a6fab46d981b6139d6548591f64a158d7e06e"
+            },
+            {
+              "composite": 0.15055073490621027,
+              "h_rmse_m": 760.0358637324144,
+              "held_out_flight": "iridium_next_8",
+              "kinematic_violation_fraction": 0.049586776859504134,
+              "n_evaluation_rows": 121,
+              "n_observed_rows": 162,
+              "n_training_flights": 27,
+              "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_97",
+              "seed": 97,
+              "target_scale": [
+                11038.692060982707,
+                321.31872627363197
+              ],
+              "v_rmse_m_s": 74.62610853488111,
+              "variant": "upper_bound_only",
+              "weights_sha256": "5479b20c7e9214ed0fb2187cbb7929e60a4cbe292fd871f8284c5ce70487cb43"
+            }
+          ],
+          "seed_sd_descriptive": {
+            "composite": 0.029147686508561515,
+            "h_rmse_m": 343.9163277233164,
+            "v_rmse_m_s": 10.21062396712685
+          }
+        }
+      }
+    }
+  ],
+  "manifest_fingerprint": "6a536dcb970f45ceac5987fa2e4f29ef006d9d3dedb7e3263dc1d93a85028813",
+  "planned_runs": 75,
+  "primary_analysis": {
+    "decision_rule_passed": false,
+    "estimand": "five-fold flight-macro composite difference, upper_bound_only minus nn",
+    "flight_differences": [
+      0.016902518073831946,
+      0.03706511723284281,
+      -0.057321073483832724,
+      0.014630688423342142,
+      -0.041603675833057185
+    ],
+    "flights_favoring_upper_bound_only": 2,
+    "interpretation_if_failed": "Iridium NEXT-5 remains flight-specific post-hoc evidence",
+    "interpretation_if_passed": "internally replicated across original-training Iridium family",
+    "mean_difference": -0.006065285117374602,
+    "n_flights": 5
+  },
+  "run_records": [
+    {
+      "composite": 0.07894969983409786,
+      "h_rmse_m": 993.4489042912169,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.34710743801652894,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 21.827499516009397,
+      "variant": "nn",
+      "weights_sha256": "1a49b324dcb3e6567452805c20f63858e362ab0c65aa9870f1861fa18252ca6a"
+    },
+    {
+      "composite": 0.10711707169747528,
+      "h_rmse_m": 1575.1200962811658,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.4297520661157025,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 23.036939970341695,
+      "variant": "nn",
+      "weights_sha256": "31eeacd576a528f26e5b38dc2337f5a27b07694a6c4f492b5ce381fa25e42695"
+    },
+    {
+      "composite": 0.09602572269178739,
+      "h_rmse_m": 1157.6297937384193,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.371900826446281,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 28.016039622188504,
+      "variant": "nn",
+      "weights_sha256": "0f5ba0309a2c958c49880b4cdc85efd067cc4c4aea16a66373788ea45553ee7f"
+    },
+    {
+      "composite": 0.11577452433572917,
+      "h_rmse_m": 1705.0471085758072,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.4628099173553719,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 24.822932413627438,
+      "variant": "nn",
+      "weights_sha256": "d9fd24d0f73a632055c3b5b797442d8394ff9f6d045b2f5c82de79ac85e40adb"
+    },
+    {
+      "composite": 0.08211783984271594,
+      "h_rmse_m": 1130.3987341085763,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.4049586776859504,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/nn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 19.892941912481067,
+      "variant": "nn",
+      "weights_sha256": "f5f4527d860b05109186136f81c90b19951afc08e889a9822c8805077c9af414"
+    },
+    {
+      "composite": 0.06734175566787007,
+      "h_rmse_m": 692.0829464598514,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 23.11393865962771,
+      "variant": "full_kcnn",
+      "weights_sha256": "8efabd751b5b994cfd82fe417cdac1f606222dfc6490faf5d70dcd05eba4d8d3"
+    },
+    {
+      "composite": 0.16552251754064495,
+      "h_rmse_m": 1156.2090094614894,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 72.58687592591032,
+      "variant": "full_kcnn",
+      "weights_sha256": "fec1aaf8101f45cb2d2547cb964a352a9e924a9cdc6a5d4b36231a55af61e1e1"
+    },
+    {
+      "composite": 0.15610525944323786,
+      "h_rmse_m": 1301.047400804451,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.09090909090909091,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 62.35992655955341,
+      "variant": "full_kcnn",
+      "weights_sha256": "40728588924349b28df749015dd686814dbadbd7d7d7fd71cfb7560c29d46669"
+    },
+    {
+      "composite": 0.13981554574943042,
+      "h_rmse_m": 1115.6787642591842,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.10743801652892562,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 57.28856876023974,
+      "variant": "full_kcnn",
+      "weights_sha256": "ccca699d226b102f4d3e76a40b54b14f3e8cc39c85fbb95fb63c73cb68f6f2d8"
+    },
+    {
+      "composite": 0.09683120337718484,
+      "h_rmse_m": 822.2778585878353,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/full_kcnn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 38.24016719005272,
+      "variant": "full_kcnn",
+      "weights_sha256": "5f612b84f96963e55867716b6548ce5cfe31db1ab4766160e843447d953052e3"
+    },
+    {
+      "composite": 0.0684500815056903,
+      "h_rmse_m": 705.1676140977175,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 23.445307820191832,
+      "variant": "upper_bound_only",
+      "weights_sha256": "04bdfdf6670f31bc2458bec95c4a05e9a5b5d820cede5a79d3aa6611ee0990d8"
+    },
+    {
+      "composite": 0.14695507858160894,
+      "h_rmse_m": 993.0128465626033,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 65.41421217945008,
+      "variant": "upper_bound_only",
+      "weights_sha256": "23f89b0e53e0d2eb45939e4206f7393df9c5a6e779a2d5ed12c0e90a335dd5d2"
+    },
+    {
+      "composite": 0.11387169303052366,
+      "h_rmse_m": 831.8868495981585,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 48.880603156833224,
+      "variant": "upper_bound_only",
+      "weights_sha256": "bafc29a901153aa5652c9f74d82c090a59412ec4c4e2e5578f9bb72442a0d218"
+    },
+    {
+      "composite": 0.1396506267545986,
+      "h_rmse_m": 1114.3935527315205,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.10743801652892562,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 57.22010305024451,
+      "variant": "upper_bound_only",
+      "weights_sha256": "064cb1e8ab20953ea0d9bb39978495d48ec571a8bf2757788654636ed5cc3348"
+    },
+    {
+      "composite": 0.09556996889854369,
+      "h_rmse_m": 826.0155866394625,
+      "held_out_flight": "iridium_next_1",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_1/upper_bound_only/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11066.88029314001,
+        320.3723745008461
+      ],
+      "v_rmse_m_s": 37.32383525769331,
+      "variant": "upper_bound_only",
+      "weights_sha256": "b02aa02b681e7f4820f99557cb0675e5c037a46e87c076e3d81a228c2311d9b6"
+    },
+    {
+      "composite": 0.1891262367607383,
+      "h_rmse_m": 2222.1080188482933,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.35537190082644626,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 56.75287455816308,
+      "variant": "nn",
+      "weights_sha256": "48ce241ace0be92a87b147995351901ea9b3f984cb90543afbafea521d8cf762"
+    },
+    {
+      "composite": 0.17839507726182585,
+      "h_rmse_m": 2297.158668868945,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.38016528925619836,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 47.713258007713705,
+      "variant": "nn",
+      "weights_sha256": "12d514106515704f599ae18b3f5dd022c09066d9ab9abb545e78b47e7a699792"
+    },
+    {
+      "composite": 0.15625560587439302,
+      "h_rmse_m": 1853.6011461498624,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.3305785123966942,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 46.37692786803573,
+      "variant": "nn",
+      "weights_sha256": "50341c0534bf215cf7934f61aae30831af190a1521cd46b2cee62940eddc40d2"
+    },
+    {
+      "composite": 0.20271743626256988,
+      "h_rmse_m": 2347.2826519603623,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.4297520661157025,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 61.829874013413075,
+      "variant": "nn",
+      "weights_sha256": "cabce2ccccd6f8c393a39fac63cb6dde9445c96a2296eaa29f5ec60eb092d383"
+    },
+    {
+      "composite": 0.14373165193677917,
+      "h_rmse_m": 1741.0178468008476,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.3884297520661157,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/nn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 41.61868497602108,
+      "variant": "nn",
+      "weights_sha256": "2f551212655e03434fc84cc92cdc3ae8e688e9899e2feb268409c01a01068b9e"
+    },
+    {
+      "composite": 0.22354456551341761,
+      "h_rmse_m": 2612.8208956366534,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.0743801652892562,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 67.47689727442874,
+      "variant": "full_kcnn",
+      "weights_sha256": "902c2b3c62b81d31550ea7bced6781af44a9069aa030575dfc774621c32c1f25"
+    },
+    {
+      "composite": 0.22675595466704446,
+      "h_rmse_m": 2396.499545289994,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 75.79107050447848,
+      "variant": "full_kcnn",
+      "weights_sha256": "cd8c825b5d737e01b7c67c54fc492890034adadf836b16f6b05e6371b7497f85"
+    },
+    {
+      "composite": 0.20056812805392576,
+      "h_rmse_m": 2123.312466996478,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 66.93438508794958,
+      "variant": "full_kcnn",
+      "weights_sha256": "f3a23f38b3f79dd0d79a705f42e1c1ebf88fc019808a90f1d60083ab65464eb1"
+    },
+    {
+      "composite": 0.211403220807801,
+      "h_rmse_m": 2234.1081862267097,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.08264462809917356,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 70.66343924310375,
+      "variant": "full_kcnn",
+      "weights_sha256": "e9edcbe97ae9dd8a095cb9a4ea0d95ac980367571c46959fe994f7068566d831"
+    },
+    {
+      "composite": 0.1975331133279863,
+      "h_rmse_m": 2360.3014259639654,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/full_kcnn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 58.13512071547703,
+      "variant": "full_kcnn",
+      "weights_sha256": "fff65edbc6ae8f93707dc420e3f1f76d062e982442ce8c38e20612e6938342d0"
+    },
+    {
+      "composite": 0.22399371701336301,
+      "h_rmse_m": 2632.073682711364,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.0743801652892562,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 67.20732446769705,
+      "variant": "upper_bound_only",
+      "weights_sha256": "b04045a4ef46482e91c74e1ea61c2df49dc3c48a58d43af574fd7c430e7fbde5"
+    },
+    {
+      "composite": 0.21996385582172406,
+      "h_rmse_m": 2380.628490265863,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 71.90317260779888,
+      "variant": "upper_bound_only",
+      "weights_sha256": "d719d5568f5c410d783a2d3554ae68ea7e424286cff472078fe4098351825d21"
+    },
+    {
+      "composite": 0.20271702075879616,
+      "h_rmse_m": 2261.0735744980275,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 64.32389021111055,
+      "variant": "upper_bound_only",
+      "weights_sha256": "33a039e410a495d4d83c571aa951ea7bc60a8b902759112fb8a0fd0adbef8b1b"
+    },
+    {
+      "composite": 0.21140971971882422,
+      "h_rmse_m": 2234.1392660750976,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.08264462809917356,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 70.66669945916216,
+      "variant": "upper_bound_only",
+      "weights_sha256": "d53623afd01e5d1306563b2383b7315f71805f5fa3a594f083b4c770aeb91afb"
+    },
+    {
+      "composite": 0.1974672809478128,
+      "h_rmse_m": 2380.285180095454,
+      "held_out_flight": "iridium_next_3",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_3/upper_bound_only/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11060.441923487386,
+        320.0111107148153
+      ],
+      "v_rmse_m_s": 57.51479775525559,
+      "variant": "upper_bound_only",
+      "weights_sha256": "65be9aec2ea990f2c818550fb3b7173eb00e20cb784f85891155de3d8b3f5a57"
+    },
+    {
+      "composite": 0.23534388063749456,
+      "h_rmse_m": 1932.6802309423306,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.32231404958677684,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 95.24208878273843,
+      "variant": "nn",
+      "weights_sha256": "677048cce34cb2474790d0bd89a13a69f5f4978b672d6708b4a80781e54e2160"
+    },
+    {
+      "composite": 0.28586459645968476,
+      "h_rmse_m": 2909.5037038609935,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.38016528925619836,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 99.39605132017189,
+      "variant": "nn",
+      "weights_sha256": "953019e9cc2465e1ec94eca6bbc0bb459fd36a92184d8da5f3070d95fc9fe6e1"
+    },
+    {
+      "composite": 0.2664228797420073,
+      "h_rmse_m": 2200.83663558819,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.3305785123966942,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 107.44466661089533,
+      "variant": "nn",
+      "weights_sha256": "6fe865af376b94f4aab40807723b58a7aa1a647ad9ccf16353d3fddf6c0422b6"
+    },
+    {
+      "composite": 0.30303471456889175,
+      "h_rmse_m": 3035.5585107740726,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.4049586776859504,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 106.77807142137185,
+      "variant": "nn",
+      "weights_sha256": "f5df974d3bd191d857aeb7e6953050681c12a7430635ff070d1aabbcd5b2d06b"
+    },
+    {
+      "composite": 0.23610244087625948,
+      "h_rmse_m": 2068.734588414749,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.34710743801652894,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/nn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 91.78526214219899,
+      "variant": "nn",
+      "weights_sha256": "cb41a53fbcf19e0cacf072e4414e6a0e00166a908e4c983e3c7ff04ad49dc049"
+    },
+    {
+      "composite": 0.15863850917552358,
+      "h_rmse_m": 1002.1675711150009,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.08264462809917356,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 72.91465734597095,
+      "variant": "full_kcnn",
+      "weights_sha256": "200f07fcb04b87e3abd6f15aeab134728f50bc4d6e5554fa18e16438a3ec877a"
+    },
+    {
+      "composite": 0.2754852297366882,
+      "h_rmse_m": 1905.1408879528758,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 121.84236494670773,
+      "variant": "full_kcnn",
+      "weights_sha256": "24bf13baf897ec4fca36746543fe55de288845e4c0716f56712959236f043d2e"
+    },
+    {
+      "composite": 0.239233713282637,
+      "h_rmse_m": 1666.1774414584343,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.0743801652892562,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 105.46867465026585,
+      "variant": "full_kcnn",
+      "weights_sha256": "f6a252ecebc2f9ee4a43db99031d75ae4240b9f0a5ca7862aec46cab9bff9ae0"
+    },
+    {
+      "composite": 0.23950489079502757,
+      "h_rmse_m": 1664.107453713703,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.09917355371900827,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 105.7029927872609,
+      "variant": "full_kcnn",
+      "weights_sha256": "8fa4a99068c54b013a55b2ff3fad6baa9b139b0976f1ea1d652693d71e98da6b"
+    },
+    {
+      "composite": 0.1843066577817068,
+      "h_rmse_m": 1012.2610498720209,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/full_kcnn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 89.12088711206938,
+      "variant": "full_kcnn",
+      "weights_sha256": "b59bf927dde82ed9951e45be0b8406399c849fc28e54853f260848a197a6d3af"
+    },
+    {
+      "composite": 0.15605970082476822,
+      "h_rmse_m": 961.5477764761522,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.0743801652892562,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 72.43468877595976,
+      "variant": "upper_bound_only",
+      "weights_sha256": "6903d0b94e573036daac30e35802880a3a465c92d1119684414f95d6a2c77780"
+    },
+    {
+      "composite": 0.2495841098224539,
+      "h_rmse_m": 1593.857113978152,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 114.2183245636847,
+      "variant": "upper_bound_only",
+      "weights_sha256": "0c1b94bcb284600b8111e11c6779346cbb55226cdcb27bbeac3f3e9a89039f51"
+    },
+    {
+      "composite": 0.21250447926095595,
+      "h_rmse_m": 1326.9856656236598,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 98.12143580633987,
+      "variant": "upper_bound_only",
+      "weights_sha256": "84e6faf10d38946183c817e4927d4aeb20e5e732356ea787d748a24768425f1c"
+    },
+    {
+      "composite": 0.23901957793565654,
+      "h_rmse_m": 1660.1734990520297,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.09917355371900827,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 105.50509660060243,
+      "variant": "upper_bound_only",
+      "weights_sha256": "2cc42e8cc503ef00b9d07025329bf651262e164fa69798423a2e898b22d35079"
+    },
+    {
+      "composite": 0.18299527702133955,
+      "h_rmse_m": 993.2172249428403,
+      "held_out_flight": "iridium_next_4",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_4/upper_bound_only/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11085.609938324125,
+        321.38769356325116
+      ],
+      "v_rmse_m_s": 88.83007156903152,
+      "variant": "upper_bound_only",
+      "weights_sha256": "5f45314da2fdd98d5ac1f56c5b87d3231c6cf97db35dcc2b988c502e8b988a91"
+    },
+    {
+      "composite": 0.08543639641749029,
+      "h_rmse_m": 550.098954374403,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.371900826446281,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 39.082122342524436,
+      "variant": "nn",
+      "weights_sha256": "ba1d1a2e9a1f0883823ce2a58d36bb0ab53cb18e41b6bf537e85c6b34202f105"
+    },
+    {
+      "composite": 0.14776291153230345,
+      "h_rmse_m": 1451.8844970017174,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.4214876033057851,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 53.074656616987504,
+      "variant": "nn",
+      "weights_sha256": "58cad32fb2c074434c7fee234a261875519fbed1905bafa7974b3260289e8204"
+    },
+    {
+      "composite": 0.11114484992238843,
+      "h_rmse_m": 850.9568245116095,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.35537190082644626,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 46.91656738283533,
+      "variant": "nn",
+      "weights_sha256": "e97e42b76ecaa28b802242792457ea34bbde7496e175a241ee0c57b20045d7cd"
+    },
+    {
+      "composite": 0.1491572922081919,
+      "h_rmse_m": 1557.1978338020433,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.4462809917355372,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 50.917981963937265,
+      "variant": "nn",
+      "weights_sha256": "0b5d0c88594972b0a4175653c5e7cd9de7e38508cb2a3459629bae8272de42b5"
+    },
+    {
+      "composite": 0.09652857570391421,
+      "h_rmse_m": 765.7794084258011,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.39669421487603307,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/nn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 39.971370973861625,
+      "variant": "nn",
+      "weights_sha256": "81913f87a76a50a2e39f7b56df9f62b549b09524cd09000da1e82ca7e22b1c0b"
+    },
+    {
+      "composite": 0.09279390587219104,
+      "h_rmse_m": 508.2436738741486,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.04132231404958678,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 45.03610110704857,
+      "variant": "full_kcnn",
+      "weights_sha256": "53f7ac5dc0f36db452674753436c74bd41989c6f3276042d0741dc713f6acebc"
+    },
+    {
+      "composite": 0.18962650711349924,
+      "h_rmse_m": 1010.4404308211203,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 92.84940726960345,
+      "variant": "full_kcnn",
+      "weights_sha256": "93c0832dad91caf02b9e1660ea8ddffced50f5301799775e88cece17899410b1"
+    },
+    {
+      "composite": 0.16751508067418422,
+      "h_rmse_m": 939.480003786872,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.0743801652892562,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 80.66329938587486,
+      "variant": "full_kcnn",
+      "weights_sha256": "e922e50c26c2833664fe021c1377772200ea8a8af7332592628d929c9d798a5c"
+    },
+    {
+      "composite": 0.16469996577342472,
+      "h_rmse_m": 917.9146452274648,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 79.47532949660834,
+      "variant": "full_kcnn",
+      "weights_sha256": "fe26231ec989623cbc58f05bccc83566af921b57169e051984074b5147005c8a"
+    },
+    {
+      "composite": 0.1128297444182498,
+      "h_rmse_m": 501.382540686508,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.04132231404958678,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/full_kcnn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 58.14254977452172,
+      "variant": "full_kcnn",
+      "weights_sha256": "80da48cb35e5da2498c1327dc3ef9b056bcb9215f89214fad78ee3ff3fdaccde"
+    },
+    {
+      "composite": 0.09373016904688297,
+      "h_rmse_m": 529.857011250395,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.04132231404958678,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 45.012291811161006,
+      "variant": "upper_bound_only",
+      "weights_sha256": "a8f7f2674317c2c204dd49333aa4560cf8acb4c2dd2ce8c6fc3dd57a3800a704"
+    },
+    {
+      "composite": 0.16405707539651998,
+      "h_rmse_m": 780.5984045121594,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 83.04447554715699,
+      "variant": "upper_bound_only",
+      "weights_sha256": "69007b63548c63289a01cba9617f72cecfee1ca65c2e3b360cc5dd533646bb02"
+    },
+    {
+      "composite": 0.1280371161707458,
+      "h_rmse_m": 550.9381859275421,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 66.5018669765786,
+      "variant": "upper_bound_only",
+      "weights_sha256": "1f9d5ff2c52c77665dea996f33eeca5890d80ab692c5e015c2a1e8ab30669b0c"
+    },
+    {
+      "composite": 0.16478619960361063,
+      "h_rmse_m": 918.630658451283,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 79.51011245295454,
+      "variant": "upper_bound_only",
+      "weights_sha256": "7df41dc6b8e4901a84c8b93d50921f322e1ced7deb2dcd1c73dd8f154d4e2747"
+    },
+    {
+      "composite": 0.1125729076832397,
+      "h_rmse_m": 498.4312978443346,
+      "held_out_flight": "iridium_next_6",
+      "kinematic_violation_fraction": 0.04132231404958678,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_6/upper_bound_only/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11104.015311793353,
+        322.1082818444279
+      ],
+      "v_rmse_m_s": 58.062701746884606,
+      "variant": "upper_bound_only",
+      "weights_sha256": "98008946fb4e9fdf8be6af7e4eec58c2937755e47e683d5bbba305b2079146d8"
+    },
+    {
+      "composite": 0.18095157984815358,
+      "h_rmse_m": 1069.2117901855704,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.36363636363636365,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 85.16321180156446,
+      "variant": "nn",
+      "weights_sha256": "339ff75fb83c3d5d5c559c31fda3089f98f7e75a12ac234703c0dbaa6fb71aec"
+    },
+    {
+      "composite": 0.23534517100674368,
+      "h_rmse_m": 1919.9003704752013,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.35537190082644626,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 95.35638238811265,
+      "variant": "nn",
+      "weights_sha256": "311e3e1aa74f30b93fc25382b528ceb8964386e7e969bb75f12194ee34b5e621"
+    },
+    {
+      "composite": 0.22385556217351216,
+      "h_rmse_m": 1932.7006224925533,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.2975206611570248,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 87.60013450871298,
+      "variant": "nn",
+      "weights_sha256": "95c1dec367383e96b163fe9d86eae2fbcb16cb397c7cabcbe42300f76955ce0a"
+    },
+    {
+      "composite": 0.22044388409632115,
+      "h_rmse_m": 2132.73392664931,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.33884297520661155,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 79.58501184087291,
+      "variant": "nn",
+      "weights_sha256": "e9ae2a408ee6c5e9db0e3b1aac7093cbaa4905650ffabe63869f365c87616fc1"
+    },
+    {
+      "composite": 0.2239239272302243,
+      "h_rmse_m": 1596.424558440229,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.36363636363636365,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/nn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 97.43252853489714,
+      "variant": "nn",
+      "weights_sha256": "94e8347e482aa11093b232583f575b61976a71deaebd7d5b9b040b7ca77b7360"
+    },
+    {
+      "composite": 0.14697845901362128,
+      "h_rmse_m": 693.5725596524311,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 74.26507107097213,
+      "variant": "full_kcnn",
+      "weights_sha256": "696c3a538f6ed73ccc7aee23c8b6ec63d1d1750b4d749e0176eec9376384fe8e"
+    },
+    {
+      "composite": 0.22096891259508186,
+      "h_rmse_m": 1480.9732579984077,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.049586776859504134,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 98.89412874274299,
+      "variant": "full_kcnn",
+      "weights_sha256": "b6f5a10d1d1d6540eb99ccf8c946ba5b4621b7b5faab5f1810272ba2c754edbe"
+    },
+    {
+      "composite": 0.19653627502253007,
+      "h_rmse_m": 1678.5101193290373,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 77.44281768515124,
+      "variant": "full_kcnn",
+      "weights_sha256": "8df26cdb38f04e22b56a3eb33f647f69bb2537c5b34b4d4e95d6a4c523a7184b"
+    },
+    {
+      "composite": 0.19221563692712867,
+      "h_rmse_m": 1297.3817128344213,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.04132231404958678,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 85.76025408426538,
+      "variant": "full_kcnn",
+      "weights_sha256": "5e4c81054f702965a1dee83054b19f18d7e243b023b22e9565d6edb51bdb096e"
+    },
+    {
+      "composite": 0.15208768171754278,
+      "h_rmse_m": 795.480780993863,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.05785123966942149,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/full_kcnn/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 74.5820630888057,
+      "variant": "full_kcnn",
+      "weights_sha256": "41e004a1096b9c648e6ea8aba1c98baf0f39d0b0e3c8190aa78b44d021de5154"
+    },
+    {
+      "composite": 0.14506435675450285,
+      "h_rmse_m": 666.7312445223264,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.06611570247933884,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_11",
+      "seed": 11,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 73.81630516004233,
+      "variant": "upper_bound_only",
+      "weights_sha256": "12e1287c307c26cf828bbc38e6faccc2815445c7d05f3ffb95a0c3ed04c890c7"
+    },
+    {
+      "composite": 0.21508174998687246,
+      "h_rmse_m": 1415.179852689694,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.024793388429752067,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_29",
+      "seed": 29,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 97.02595869179868,
+      "variant": "upper_bound_only",
+      "weights_sha256": "1b93cff7a0acfd6eac08d12fa9ebc8fd96ef3b74925027a06c83a84060397701"
+    },
+    {
+      "composite": 0.17358987713287263,
+      "h_rmse_m": 1281.073041878355,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.04132231404958678,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_47",
+      "seed": 47,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 74.26536266800653,
+      "variant": "upper_bound_only",
+      "weights_sha256": "8f9fc433f296a87e9eea7b81d559ab42fceb8734da07e0a3cf508954a6bb104e"
+    },
+    {
+      "composite": 0.19221502640921076,
+      "h_rmse_m": 1297.3774565067863,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.04132231404958678,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_71",
+      "seed": 71,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 85.75998563749722,
+      "variant": "upper_bound_only",
+      "weights_sha256": "4f87b43454453babd24ac5c4a30a6fab46d981b6139d6548591f64a158d7e06e"
+    },
+    {
+      "composite": 0.15055073490621027,
+      "h_rmse_m": 760.0358637324144,
+      "held_out_flight": "iridium_next_8",
+      "kinematic_violation_fraction": 0.049586776859504134,
+      "n_evaluation_rows": 121,
+      "n_observed_rows": 162,
+      "n_training_flights": 27,
+      "run_directory": "outputs/iridium_family_lofo/iridium_next_8/upper_bound_only/seed_97",
+      "seed": 97,
+      "target_scale": [
+        11038.692060982707,
+        321.31872627363197
+      ],
+      "v_rmse_m_s": 74.62610853488111,
+      "variant": "upper_bound_only",
+      "weights_sha256": "5479b20c7e9214ed0fb2187cbb7929e60a4cbe292fd871f8284c5ce70487cb43"
+    }
+  ],
+  "schema_version": 1,
+  "status": "iridium_family_lofo_complete",
+  "test_trajectory_files_in_inputs": 0
+}

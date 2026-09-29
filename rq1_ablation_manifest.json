@@ -1,0 +1,83 @@
+{
+  "base_global_fingerprint": "51c2e3e6908bee99477d3bb5c6bb3ad9a1070ad687db6ac7bc547f4d0782773c",
+  "config": {
+    "epochs": 400,
+    "fraction": "005",
+    "kinematic_weight": 33.6822579609781,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001
+  },
+  "fingerprint": "c409bc1e044473f0022a7521407e9a3c9c439e077d71bf27b6ea1bc869538ab1",
+  "mask_sha256": "984d0f748060ca8f58d1da3cb8084cad0dd56f63442dc86b91fab6d99abfe8a9",
+  "protocol_sha256": "a4922688635080209b054461add3c39b168e286bf319d12cefb244f0565861fd",
+  "schema_version": 1,
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    97
+  ],
+  "status": "post_hoc_protocol_locked_before_ablation_training",
+  "test_flights": [
+    "intelsat_35e",
+    "iridium_next_5",
+    "ses_9",
+    "spacex_crs_11",
+    "sso_a",
+    "thaicom_8"
+  ],
+  "test_use": "post_hoc_descriptive_mechanism_analysis_no_tuning",
+  "train_flights": [
+    "abs_2a",
+    "bangabandhu_1",
+    "bulgariasat_1",
+    "formosat_5",
+    "govsat_1",
+    "hispasat_30w_6",
+    "inmarsat_5_f4",
+    "iridium_next_1",
+    "iridium_next_3",
+    "iridium_next_4",
+    "iridium_next_6",
+    "iridium_next_8",
+    "jcsat_16",
+    "jcsat_2b",
+    "koreasat_5a",
+    "nrol_76",
+    "orbcomm_og2",
+    "paz",
+    "ses_10",
+    "ses_12",
+    "spacex_crs_10",
+    "spacex_crs_12",
+    "spacex_crs_13",
+    "spacex_crs_16",
+    "spacex_crs_9",
+    "tess",
+    "x_37b_otv_5",
+    "zuma"
+  ],
+  "validation_flights": [
+    "echostar_23",
+    "gps_iii_sv01",
+    "jason_3",
+    "ses_11",
+    "spacex_crs_14",
+    "spacex_crs_8"
+  ],
+  "variants": {
+    "omit_speed_nonnegative": [
+      "vertical_rate_nonnegative",
+      "vertical_rate_le_speed"
+    ],
+    "omit_vertical_rate_le_speed": [
+      "vertical_rate_nonnegative",
+      "speed_nonnegative"
+    ],
+    "omit_vertical_rate_nonnegative": [
+      "vertical_rate_le_speed",
+      "speed_nonnegative"
+    ]
+  }
+}

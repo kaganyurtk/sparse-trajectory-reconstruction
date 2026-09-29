@@ -1,0 +1,29 @@
+# Reproducibility status
+
+## Verified and included
+
+- Current manuscript and Supplementary Information.
+- RQ1 and Iridium-family locked configuration records.
+- RQ1 NEXT-5 diagnostic, ablation, and family-transfer protocols/reports.
+- RQ2 curation, estimand, split-gate, and operational-identity protocols.
+- Available diagnostic and split-verification scripts.
+- Frozen analysis fingerprints and reported replay checks.
+
+## Required before public `v1.0.0`
+
+- Deposit the complete primary RQ1 and RQ2 training/evaluation runners.
+- Add an environment lock file with tested package versions.
+- Add the machine-readable RQ1 inner split and final RQ2 v1.1 split record.
+- Add or regenerate the final RQ1 and RQ2 manifests whose fingerprints appear in `INTEGRITY_RECORDS.json`.
+- Re-run the package from a clean environment and record commands and outputs.
+- Confirm the written FlightSketch permission and required attribution language.
+- Choose a software license; do not apply it to third-party data.
+- Remove absolute/local paths and any nonportable workspace references from released records.
+- Review manuscript-distribution rules before including the submitted manuscript in the public Zenodo record.
+
+## Explicit exclusions
+
+- Raw FlightSketch CSV files are not deposited.
+- No claim is made that the current private draft is executable end to end.
+- The RQ2 v1.1 evaluation is a confirmatory reconstruction, not a pristine sealed test.
+

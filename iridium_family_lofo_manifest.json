@@ -1,0 +1,191 @@
+{
+  "decision_rule": {
+    "contrast": "upper_bound_only minus nn",
+    "mean_difference_must_be_negative": true,
+    "required_flights_favoring_upper_bound_only": 4
+  },
+  "fingerprint": "6a536dcb970f45ceac5987fa2e4f29ef006d9d3dedb7e3263dc1d93a85028813",
+  "folds": [
+    "iridium_next_1",
+    "iridium_next_3",
+    "iridium_next_4",
+    "iridium_next_6",
+    "iridium_next_8"
+  ],
+  "kinematic_weight": 33.6822579609781,
+  "mask_sha256": "984d0f748060ca8f58d1da3cb8084cad0dd56f63442dc86b91fab6d99abfe8a9",
+  "planned_runs": 75,
+  "protocol_sha256": "2c5e12702515eafbbf1107aecd7d7abf8e62fa6e7eeaf83fe917a9a6aa2b3873",
+  "runner_sha256": "747d653bb43e3d8233f0bc51afde734fd72f5f679521b75f29e8627951cb8267",
+  "schema_version": 1,
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    97
+  ],
+  "source_hashes": [
+    {
+      "path": "data/flights/abs_2a.csv",
+      "sha256": "25df261ef430538fbced642314185bfe50f86c9d7ed866abdfd2f51d73add6bf"
+    },
+    {
+      "path": "data/flights/bangabandhu_1.csv",
+      "sha256": "9014a9d1cb403c6dddbeab95f86b0410478cb8f28421a398681eb516377a7cef"
+    },
+    {
+      "path": "data/flights/bulgariasat_1.csv",
+      "sha256": "4eb8596605ebfb9f3fa20a9a70cc6bf1b53c09a39e32d3d62ccbe02164ee473e"
+    },
+    {
+      "path": "data/flights/echostar_23.csv",
+      "sha256": "6e0e02cd48d000ba033daa896bed46d5dc2fb450b2cf8e17967617e69d4539be"
+    },
+    {
+      "path": "data/flights/formosat_5.csv",
+      "sha256": "8b50e9cab2b10784dee1cb8784f00bb2cae6aa433695e0a8610ccd2087e52ab8"
+    },
+    {
+      "path": "data/flights/govsat_1.csv",
+      "sha256": "d20d41d3f960a401640f49e1ac3f2af32938605b9c7c02daa6cf1fe9581aec6f"
+    },
+    {
+      "path": "data/flights/gps_iii_sv01.csv",
+      "sha256": "93636e3293a28f46135e45e10ff1a6502467808637a5e8a2bdce025056f4581e"
+    },
+    {
+      "path": "data/flights/hispasat_30w_6.csv",
+      "sha256": "9709e626d60e17fe8909d3866e58e1faf5f9f14f2354835f35d9976a39574dd0"
+    },
+    {
+      "path": "data/flights/inmarsat_5_f4.csv",
+      "sha256": "65a711945a0b659b9ab29b0dba6ce901ae9e61c4eb43809aa53bb69b0b42f90a"
+    },
+    {
+      "path": "data/flights/iridium_next_1.csv",
+      "sha256": "6bdc113be0bb88c8b4bbc93f4f283d378b818fd7514822ccda837b0afbb991cf"
+    },
+    {
+      "path": "data/flights/iridium_next_3.csv",
+      "sha256": "5a3fb0ab40737ab47646b88ff4ceb42d7abd127cc083326c09d92c9dc06f7131"
+    },
+    {
+      "path": "data/flights/iridium_next_4.csv",
+      "sha256": "7c45ed6c6bfd20bfdcf4df5d1b7c7dba6789f7fe774fc3899faa617d80e8159d"
+    },
+    {
+      "path": "data/flights/iridium_next_6.csv",
+      "sha256": "79883a19cf4143bf014d0d32889ed28ade4db65906244bb21863436d9fa3b4e4"
+    },
+    {
+      "path": "data/flights/iridium_next_8.csv",
+      "sha256": "f7943613c3b563a84ecd8e85f4556e1edb85766dcadb4b42299efe2214bc3f57"
+    },
+    {
+      "path": "data/flights/jason_3.csv",
+      "sha256": "318fb71c4db25059210ba6f6bc1d0da28f7c8117c267a1f41fdd9f09e98e393a"
+    },
+    {
+      "path": "data/flights/jcsat_16.csv",
+      "sha256": "920f72e8dfb0261638781c5c8ac1aab29cb62c720c1ffe89d85efa0c0730e912"
+    },
+    {
+      "path": "data/flights/jcsat_2b.csv",
+      "sha256": "0a3f8d6e853acff37e1ccecb3839e7c441881a7067d432c2198ec714582b69ce"
+    },
+    {
+      "path": "data/flights/koreasat_5a.csv",
+      "sha256": "f9a3cfd23dd0ff7dd7a06ab4583075dc7a23d23227eb0f2cb4bedfd81e97cf19"
+    },
+    {
+      "path": "data/flights/nrol_76.csv",
+      "sha256": "79a41b1e9a035868d10c7453fdc548357c1afa6425c7c8300eca63ce8682342a"
+    },
+    {
+      "path": "data/flights/orbcomm_og2.csv",
+      "sha256": "71f8c4a1cf8d0883a21577b52397c9050c7e107550146843b8232dd074e20ea5"
+    },
+    {
+      "path": "data/flights/paz.csv",
+      "sha256": "c99dcff0a268be26b28b61375e850a106d87424f865c1f7f77b13f2388126338"
+    },
+    {
+      "path": "data/flights/ses_10.csv",
+      "sha256": "8dea76e75bf4953d234cc1aedef77a3d986f9eff611560ce6427a049eee4df88"
+    },
+    {
+      "path": "data/flights/ses_11.csv",
+      "sha256": "85d813012998c875f4a9265e6d95fc02903c3b120a060a21c600a621e67a014c"
+    },
+    {
+      "path": "data/flights/ses_12.csv",
+      "sha256": "86f757ba2730edf84377ff0f1db7c34daa46c0d6f73b177f9c2cba6dc7e4a625"
+    },
+    {
+      "path": "data/flights/spacex_crs_10.csv",
+      "sha256": "4698259d9c57bcb50e3e81665deeec7c88dc347073137482192bac336c3511ef"
+    },
+    {
+      "path": "data/flights/spacex_crs_12.csv",
+      "sha256": "ac307092c0b85e835bfea5a469ae3aca50f1bda109573e952f97d2782f6b49c0"
+    },
+    {
+      "path": "data/flights/spacex_crs_13.csv",
+      "sha256": "569e978288ced8c3352dfbe7290e8be6a425f5cc3b8b9e9ebe65d5eb283c0d63"
+    },
+    {
+      "path": "data/flights/spacex_crs_14.csv",
+      "sha256": "a269c2957444ad560dd23c2d9d65866069fc23a7b6d24236efe874c573ac9e97"
+    },
+    {
+      "path": "data/flights/spacex_crs_16.csv",
+      "sha256": "7926ad03e8776fc67cb06faa7424cb7043c9a1f3c0afb0dd52fa8d8dee8e2c61"
+    },
+    {
+      "path": "data/flights/spacex_crs_8.csv",
+      "sha256": "36fff1fffeac706e6414df9e6707a67ee5aa4aaf272ab40d4e10272fa4fc4a59"
+    },
+    {
+      "path": "data/flights/spacex_crs_9.csv",
+      "sha256": "8e53b99ed109ea617b227a2a6633fe759082eb8ca0e2d2cd2a13b632e7db4c54"
+    },
+    {
+      "path": "data/flights/tess.csv",
+      "sha256": "c63041683554c534632ea1bebce1c8244763b343938201daaef54c09af2d1daa"
+    },
+    {
+      "path": "data/flights/x_37b_otv_5.csv",
+      "sha256": "7634064cd4ad0b04f6626f0a5e482ff21acc568b0614864e671e754f3f67e09d"
+    },
+    {
+      "path": "data/flights/zuma.csv",
+      "sha256": "59b8faa4f2377bd278d1758c24160894714c6560da14fea31853a4a7ceee8aa7"
+    }
+  ],
+  "status": "protocol_locked_before_training",
+  "test_trajectory_files_in_inputs": 0,
+  "variants": {
+    "full_kcnn": {
+      "active_terms": [
+        "vertical_rate_nonnegative",
+        "vertical_rate_le_speed",
+        "speed_nonnegative"
+      ],
+      "epochs": 400,
+      "method": "kcnn"
+    },
+    "nn": {
+      "active_terms": [],
+      "epochs": 560,
+      "method": "nn"
+    },
+    "upper_bound_only": {
+      "active_terms": [
+        "vertical_rate_le_speed"
+      ],
+      "epochs": 400,
+      "method": "kcnn"
+    }
+  }
+}

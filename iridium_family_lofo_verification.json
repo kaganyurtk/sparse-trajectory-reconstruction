@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "checks": {
+    "manifest_fingerprint": true,
+    "summary_manifest_link": true,
+    "status_complete": true,
+    "planned_completed_75": true,
+    "five_folds": true,
+    "test_inputs_zero": true,
+    "all_expected_fold_variant_seed_pairs": true,
+    "weights_hashes": true,
+    "prediction_row_counts": true,
+    "training_and_evaluation_counts": true,
+    "composite_recalculation": true,
+    "finite_metrics": true,
+    "fold_mean_iridium_next_1_nn": true,
+    "fold_mean_iridium_next_1_full_kcnn": true,
+    "fold_mean_iridium_next_1_upper_bound_only": true,
+    "fold_mean_iridium_next_3_nn": true,
+    "fold_mean_iridium_next_3_full_kcnn": true,
+    "fold_mean_iridium_next_3_upper_bound_only": true,
+    "fold_mean_iridium_next_4_nn": true,
+    "fold_mean_iridium_next_4_full_kcnn": true,
+    "fold_mean_iridium_next_4_upper_bound_only": true,
+    "fold_mean_iridium_next_6_nn": true,
+    "fold_mean_iridium_next_6_full_kcnn": true,
+    "fold_mean_iridium_next_6_upper_bound_only": true,
+    "fold_mean_iridium_next_8_nn": true,
+    "fold_mean_iridium_next_8_full_kcnn": true,
+    "fold_mean_iridium_next_8_upper_bound_only": true,
+    "primary_flight_differences": true,
+    "primary_mean_difference": true,
+    "primary_favor_count": true,
+    "decision_rule": true
+  },
+  "verified_runs": 75,
+  "recomputed_primary": {
+    "flight_differences": [
+      0.016902518073831946,
+      0.03706511723284281,
+      -0.057321073483832724,
+      0.014630688423342142,
+      -0.041603675833057185
+    ],
+    "mean_difference": -0.006065285117374602,
+    "flights_favoring_upper_bound_only": 2,
+    "decision_rule_passed": false
+  }
+}
