@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "selection_policy": "Fixed before KC-NN fitting; selected from metadata only to cover Falcon 9 Blocks 1-5, multiple orbit classes, payload range, and one missing-payload case. No trajectory target or model result was used.",
+  "fit": [
+    "abs_2a",
+    "bulgariasat_1",
+    "govsat_1",
+    "inmarsat_5_f4",
+    "iridium_next_1",
+    "iridium_next_3",
+    "iridium_next_4",
+    "iridium_next_6",
+    "iridium_next_8",
+    "jcsat_16",
+    "jcsat_2b",
+    "koreasat_5a",
+    "paz",
+    "ses_12",
+    "spacex_crs_10",
+    "spacex_crs_12",
+    "spacex_crs_13",
+    "spacex_crs_16",
+    "spacex_crs_9",
+    "tess",
+    "x_37b_otv_5",
+    "zuma"
+  ],
+  "inner_validation": [
+    "orbcomm_og2",
+    "ses_10",
+    "formosat_5",
+    "hispasat_30w_6",
+    "bangabandhu_1",
+    "nrol_76"
+  ],
+  "outer_validation": [
+    "jason_3",
+    "spacex_crs_8",
+    "echostar_23",
+    "ses_11",
+    "spacex_crs_14",
+    "gps_iii_sv01"
+  ]
+}
