@@ -28,7 +28,7 @@ Reproducibility materials for matched unconstrained and kinematically constraine
 
 ## Access and licensing
 
-The intended access right is open after the repository passes the final release audit and the author approves public visibility. The software license remains intentionally unset in this release candidate. Third-party telemetry is not included and is not covered by any future code license.
+The intended access right is open after the repository passes the final release audit and the author approves public visibility. Software and code use the MIT License. Author-written manuscript and documentation use CC BY 4.0. Third-party telemetry is not included and is not covered by either license.
 
 ## Publication relationship
 

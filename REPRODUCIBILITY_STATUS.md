@@ -19,10 +19,14 @@
 - Add or regenerate the final RQ1 and RQ2 manifests whose fingerprints appear in `INTEGRITY_RECORDS.json`.
 - Re-run the package from a clean environment and record commands and outputs.
 - Confirm the written FlightSketch permission and required attribution language.
-- Choose a software license; do not apply it to third-party data.
 - Remove absolute/local paths and any nonportable workspace references from released records.
 - Review manuscript-distribution rules before including the submitted manuscript in the public Zenodo record.
-- Select the software license and document that it does not apply to third-party telemetry.
+
+## Licensing resolved for the release candidate
+
+- Software and code: MIT License.
+- Author-written manuscript and documentation: CC BY 4.0.
+- Third-party telemetry and externally owned material: excluded from both grants and governed by their original terms.
 
 ## Explicit exclusions
 

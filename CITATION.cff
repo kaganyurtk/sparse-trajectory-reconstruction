@@ -9,6 +9,7 @@ authors:
     email: "kagan.yurtkolesi@std.iue.edu.tr"
 version: 1.0.0
 date-released: 2026-09-30
+license: MIT
 repository-code: "https://github.com/kaganyurtk/sparse-trajectory-reconstruction"
 url: "https://github.com/kaganyurtk/sparse-trajectory-reconstruction"
 abstract: >-

@@ -60,4 +60,6 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). A DOI will be a
 
 ## License
 
-No software or data license is granted in this private release candidate. A code license must be selected before public release. Third-party data remain governed by their original terms and any written authorization.
+Software and code are licensed under the [MIT License](LICENSE). The author-written manuscript, Supplementary Information, protocols, reports, and other prose documentation are licensed under [CC BY 4.0](DOCUMENTATION_LICENSE.md). See [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md) for the exact boundary.
+
+These licenses do not cover third-party telemetry or other externally owned material. Such material remains governed by its original terms and any written authorization.

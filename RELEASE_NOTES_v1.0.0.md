@@ -27,4 +27,4 @@ RQ2 reuses the matched NN and KC-NN model family and comparison logic developed 
 
 RQ1 source-level and end-to-end experiment logic is included, but reproducing its numerical outputs requires authorized processed telemetry. RQ2 curation and split preparation are included; the numerical RQ2 results are not claimed to be end-to-end reproducible from this repository alone.
 
-The repository remains private until the author separately approves public visibility. No Zenodo record or GitHub release should be published before the software license and manuscript-distribution status are resolved.
+The repository remains private until the author separately approves public visibility. Software and code are licensed under MIT; author-written prose and manuscript materials are licensed under CC BY 4.0. Third-party telemetry is outside both grants. No Zenodo record or GitHub release should be published before the manuscript-distribution status and remaining release checks are resolved.
