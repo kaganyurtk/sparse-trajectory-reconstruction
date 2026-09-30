@@ -4,7 +4,7 @@ Reproducibility workspace for the manuscript:
 
 > **When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets**
 
-**Author:** Kağan Yurtkölesi  
+**Author:** Tek Kağan Yurtkölesi  
 **Affiliation:** Department of Aerospace Engineering, Izmir University of Economics, Izmir, Türkiye
 
 ## Scope
@@ -20,7 +20,7 @@ The main scientific conclusion is deliberately conditional: a constraint can red
 
 ## Repository status
 
-This repository is currently a **private archival draft**. It contains the manuscript, Supplementary Information, frozen protocols, integrity records, and the analysis scripts currently available in the project archive. It is not yet the final Zenodo release.
+This repository is currently a **private v1.0.0 release candidate**. It contains the manuscript, Supplementary Information, frozen protocols, integrity records, complete RQ1 experiment code, and the safe RQ2 preparation utilities recovered from the project archive. It has not yet been made public or archived with Zenodo.
 
 See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary between verified contents and items still required before a public release.
 
@@ -34,6 +34,8 @@ See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary be
 - `iridium_family_lofo_summary.json` and `iridium_family_lofo_verification.json` — derived run and replay records.
 - `analyze_iridium_advantage.py` and `verify_and_report_kinematic_ablation.py` — targeted RQ1 diagnostic utilities.
 - `prepare_rq2_split.py` and `verify_rq2_gates.py` — RQ2 identity-gated split utilities.
+- `rq1_training/` — complete RQ1 training, validation, held-out evaluation, and verification code.
+- `rq2/` — recovered shareable RQ2 source-audit, identity-review, and split-preparation utilities.
 - Protocol and audit Markdown files documenting the analyses and their limitations.
 
 ## Data availability boundary
@@ -50,8 +52,7 @@ The included scripts may refer to artifacts from the original analysis workspace
 4. Replay saved checkpoints and verify predictions and reported aggregate metrics.
 5. Confirm the manifest fingerprints listed in `INTEGRITY_RECORDS.json`.
 
-
-The complete RQ1 training, validation, and held-out evaluation code is available in [`rq1_training/`](rq1_training/). RQ2’s complete primary training runner and the final environment lock remain required before the first public release.
+The RQ1 environment is pinned in `rq1_training/requirements.txt`. The historical RQ2 model-fitting/evaluation runner was not present in the recovered shareable archive; the release metadata and RQ2 README state this limitation explicitly rather than claiming end-to-end RQ2 reproducibility.
 
 ## Citation
 
@@ -59,5 +60,4 @@ Citation metadata is provided in [`CITATION.cff`](CITATION.cff). A DOI will be a
 
 ## License
 
-No software or data license is granted in this private draft. A code license will be selected before public release. Third-party data remain governed by their original terms and any written authorization.
-
+No software or data license is granted in this private release candidate. A code license must be selected before public release. Third-party data remain governed by their original terms and any written authorization.

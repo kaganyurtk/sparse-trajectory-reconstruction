@@ -4,15 +4,32 @@ title: "Sparse trajectory reconstruction under kinematic constraints"
 type: software
 authors:
   - family-names: "Yurtkölesi"
-    given-names: "Kağan"
+    given-names: "Tek Kağan"
     affiliation: "Department of Aerospace Engineering, Izmir University of Economics"
     email: "kagan.yurtkolesi@std.iue.edu.tr"
-version: 0.1.0
+version: 1.0.0
+date-released: 2026-09-30
 repository-code: "https://github.com/kaganyurtk/sparse-trajectory-reconstruction"
+url: "https://github.com/kaganyurtk/sparse-trajectory-reconstruction"
+abstract: >-
+  Reproducibility materials for matched unconstrained and kinematically
+  constrained neural-network studies of sparse rocket-trajectory
+  reconstruction. The package contains the complete RQ1 Falcon 9 training,
+  validation, and held-out evaluation code together with safe RQ2 FlightSketch
+  data-curation and split-preparation utilities. Third-party telemetry,
+  processed trajectories, trained weights, and the unavailable historical RQ2
+  model-fitting runner are not included.
 keywords:
   - rocket telemetry
   - trajectory reconstruction
   - physics-informed machine learning
   - kinematic constraints
   - sparse observations
-
+  - reproducibility
+preferred-citation:
+  type: article
+  title: "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets"
+  authors:
+    - family-names: "Yurtkölesi"
+      given-names: "Tek Kağan"
+  year: 2026
