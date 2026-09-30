@@ -20,7 +20,7 @@ The main scientific conclusion is deliberately conditional: a constraint can red
 
 ## Repository status
 
-This repository is currently a **private v1.0.0 release candidate**. It contains the manuscript, Supplementary Information, frozen protocols, integrity records, complete RQ1 experiment code, and the safe RQ2 preparation utilities recovered from the project archive. It has not yet been made public or archived with Zenodo.
+This repository is currently a **private v0.9.0 release candidate**. It contains the manuscript, Supplementary Information, frozen protocols, integrity records, complete RQ1 experiment code, and the safe RQ2 preparation utilities recovered from the project archive. It has not yet been made public or archived with Zenodo.
 
 See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary between verified contents and items still required before a public release.
 
@@ -29,6 +29,8 @@ See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary be
 - `Acta_Astronautica_Manuscript.docx` — current manuscript.
 - `Acta_Astronautica_Supplementary_Information.docx` — supplementary methods and results.
 - `INTEGRITY_RECORDS.json` — frozen fingerprints and replay status reported in the paper.
+- `MANIFEST_PROVENANCE.json` — relationship between the historical and path-normalized Iridium manifest fingerprints.
+- `requirements-analysis.txt` — installation requirements for the root diagnostic and plotting scripts.
 - `rq1_ablation_manifest.json` — locked NEXT-5 constraint-ablation configuration.
 - `iridium_family_lofo_manifest.json` — locked Iridium-family leave-one-flight-out configuration.
 - `iridium_family_lofo_summary.json` and `iridium_family_lofo_verification.json` — derived run and replay records.
@@ -37,6 +39,7 @@ See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary be
 - `rq1_training/` — complete RQ1 training, validation, held-out evaluation, and verification code.
 - `rq2/` — recovered shareable RQ2 source-audit, identity-review, and split-preparation utilities.
 - Protocol and audit Markdown files documenting the analyses and their limitations.
+- `RELEASE_AUDIT_v0.9.0.md` — checks completed for this private release candidate and the remaining publication blockers.
 
 ## Data availability boundary
 
@@ -45,6 +48,10 @@ Raw third-party FlightSketch CSV files are **not included**. Public-source acces
 The included scripts may refer to artifacts from the original analysis workspace that are not yet deposited. Their presence documents the verified analysis logic; it does not imply that the repository is already executable end to end.
 
 ## Reproduction outline
+
+Run `python verify_rq2_gates.py` for an offline synthetic splitter check; it does not use telemetry or reproduce RQ2 model results. Install `requirements-analysis.txt` for the root plotting/report tools. Those tools additionally need the excluded frozen `outputs/` trees at repository root.
+
+The historical NEXT-5 ablation and Iridium-family training runners are not included. Their reports and manifests are archival evidence, not a complete rerunnable implementation. See `MANIFEST_PROVENANCE.json` for the distinction between historical and portable manifest hashes.
 
 1. Reconstruct the permitted input datasets and verify source hashes.
 2. Apply the frozen flight/group splits and deterministic masks.
@@ -56,7 +63,7 @@ The RQ1 environment is pinned in `rq1_training/requirements.txt`. The historical
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). A DOI will be added after the verified `v1.0.0` release is archived with Zenodo.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). A DOI will be added after the verified `v0.9.0` release is archived with Zenodo.
 
 ## License
 

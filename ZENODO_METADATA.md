@@ -1,4 +1,4 @@
-# Zenodo metadata for version 1.0.0
+# Zenodo metadata for version 0.9.0
 
 This file records the intended metadata for the first archived software release. `CITATION.cff` remains the machine-readable source used by the GitHub-Zenodo integration.
 
@@ -6,8 +6,8 @@ This file records the intended metadata for the first archived software release.
 
 - Resource type: Software
 - Title: Sparse trajectory reconstruction under kinematic constraints
-- Version: 1.0.0
-- Release date: 2026-09-30
+- Version: 0.9.0
+- Release date: not yet published; set on actual publication
 - Creator: Kağan Yurtkölesi
 - Affiliation: Department of Aerospace Engineering, Izmir University of Economics, Izmir, Türkiye
 - Repository: https://github.com/kaganyurtk/sparse-trajectory-reconstruction

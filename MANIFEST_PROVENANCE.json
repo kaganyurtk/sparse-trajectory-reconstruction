@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "artifact": "iridium_family_lofo_manifest.json",
+  "historical_manifest_fingerprint": "6a536dcb970f45ceac5987fa2e4f29ef006d9d3dedb7e3263dc1d93a85028813",
+  "portable_manifest_fingerprint": "7fa55ac8b8fd26e6d3d002064f07b3352847e198072a9cf59ef14366b665bf9c",
+  "transformation": "Only 34 source_hashes path fields changed from historical absolute paths to data/flights/<filename>. Source file hashes and experimental settings are unchanged.",
+  "historical_verification_scope": "iridium_family_lofo_verification.json and summary retain the historical fingerprint. They are historical records, not a replay of this portable package.",
+  "canonicalization": "SHA256 of UTF-8 json.dumps with sort_keys=True, separators=(comma,colon), ensure_ascii=False, excluding fingerprint"
+}

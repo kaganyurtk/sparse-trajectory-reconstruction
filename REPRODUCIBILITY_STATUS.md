@@ -11,11 +11,11 @@
 - Complete RQ1 training, validation, held-out evaluation, and verification code under `rq1_training/`.
 - Recovered shareable RQ2 source-audit, identity-review, and split-preparation utilities under `rq2/`.
 
-## Required before public `v1.0.0`
+## Required before public `v0.9.0`
 
 - Recover or reconstruct and validate the historical RQ2 model-fitting/evaluation runner; until then, retain the explicit partial-reproducibility statement.
 - Confirm whether the RQ1 pinned requirements are sufficient for the final environment record and add platform details if available.
-- Add the machine-readable RQ1 inner split and final RQ2 v1.1 split record.
+- Verify the included `rq1_training/inner_split.json` against the historical run record; recover the final RQ2 v1.1 split record.
 - Add or regenerate the final RQ1 and RQ2 manifests whose fingerprints appear in `INTEGRITY_RECORDS.json`.
 - Re-run the package from a clean environment and record commands and outputs.
 - Confirm the written FlightSketch permission and required attribution language.
@@ -34,3 +34,6 @@
 - No claim is made that the current private draft is executable end to end.
 - The RQ2 v1.1 evaluation is a confirmatory reconstruction, not a pristine sealed test.
 - The repository must remain private until the author separately approves public visibility.
+- Historical NEXT-5 ablation and Iridium-family training runners are also absent from the inspected package; reports and manifests alone do not reproduce those trainings.
+- The root `requirements-analysis.txt` covers diagnostic dependencies but is not a recovered historical environment lockfile.
+- `MANIFEST_PROVENANCE.json` distinguishes the portable Iridium manifest fingerprint from the historical fingerprint retained in the paper and historical reports.

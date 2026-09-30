@@ -9,7 +9,15 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
-from experiment import object_sha256, sha256
+import hashlib
+
+
+def object_sha256(value):
+    return hashlib.sha256(json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode()).hexdigest()
+
+
+def sha256(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
 ROOT = Path(__file__).resolve().parent

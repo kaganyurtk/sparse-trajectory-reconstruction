@@ -4,7 +4,6 @@
     "mean_difference_must_be_negative": true,
     "required_flights_favoring_upper_bound_only": 4
   },
-  "fingerprint": "6a536dcb970f45ceac5987fa2e4f29ef006d9d3dedb7e3263dc1d93a85028813",
   "folds": [
     "iridium_next_1",
     "iridium_next_3",
@@ -187,5 +186,6 @@
       "epochs": 400,
       "method": "kcnn"
     }
-  }
+  },
+  "fingerprint": "7fa55ac8b8fd26e6d3d002064f07b3352847e198072a9cf59ef14366b665bf9c"
 }
