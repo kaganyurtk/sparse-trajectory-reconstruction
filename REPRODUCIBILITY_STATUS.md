@@ -1,39 +1,16 @@
 # Reproducibility status
 
-## Verified and included
+## Recovered and verified
 
-- Current manuscript and Supplementary Information.
-- RQ1 and Iridium-family locked configuration records.
-- RQ1 NEXT-5 diagnostic, ablation, and family-transfer protocols/reports.
-- RQ2 curation, estimand, split-gate, and operational-identity protocols.
-- Available diagnostic and split-verification scripts.
-- Frozen analysis fingerprints and reported replay checks.
-- Complete RQ1 training, validation, held-out evaluation, and verification code under `rq1_training/`.
-- Recovered shareable RQ2 source-audit, identity-review, and split-preparation utilities under `rq2/`.
+Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 ablation, Iridium-family, and RQ2 reconstruction v1.1 packages, including runners, manifests, splits, saved checkpoints, predictions and historical verification records. See EXPERIMENT_RECORDS_README.md and RECOVERED_RECORDS_VERIFICATION.json. Permitted raw input data and configuration of historical paths are still needed for execution; no clean-environment full replay is claimed.
 
-## Required before public `v0.9.0`
+The RQ1 inner split matches the deposited implementation. All 27 RQ2 archived checksum entries and all ten checkpoint hashes validate. The RQ2 manifest fingerprint matches the paper; its 46 test flight IDs and eight test groups match the split record, with pairwise separation from fitting and validation groups. Historical replay logs are retained and explicitly distinguished from the new integrity checks.
 
-- Recover or reconstruct and validate the historical RQ2 model-fitting/evaluation runner; until then, retain the explicit partial-reproducibility statement.
-- Confirm whether the RQ1 pinned requirements are sufficient for the final environment record and add platform details if available.
-- Verify the included `rq1_training/inner_split.json` against the historical run record; recover the final RQ2 v1.1 split record.
-- Add or regenerate the final RQ1 and RQ2 manifests whose fingerprints appear in `INTEGRITY_RECORDS.json`.
-- Re-run the package from a clean environment and record commands and outputs.
-- Confirm the written FlightSketch permission and required attribution language.
-- Remove absolute/local paths and any nonportable workspace references from released records.
-- Review manuscript-distribution rules before including the submitted manuscript in the public Zenodo record.
+## Remaining execution and publication requirements
 
-## Licensing resolved for the release candidate
+- Supply permitted source telemetry and configure historical input paths.
+- Assemble a clean execution environment; RQ1 records specify Python 3.12.14, NumPy 2.3.5 and PyTorch 2.7.1+cpu.
+- Re-run replay checks from the assembled package before claiming end-to-end reproducibility. No new training is required merely to preserve the recovered results.
+- Confirm manuscript distribution terms before public release. The author has confirmed research-use permission; raw telemetry remains excluded.
 
-- Software and code: MIT License.
-- Author-written manuscript and documentation: CC BY 4.0.
-- Third-party telemetry and externally owned material: excluded from both grants and governed by their original terms.
-
-## Explicit exclusions
-
-- Raw FlightSketch CSV files are not deposited.
-- No claim is made that the current private draft is executable end to end.
-- The RQ2 v1.1 evaluation is a confirmatory reconstruction, not a pristine sealed test.
-- The repository must remain private until the author separately approves public visibility.
-- Historical NEXT-5 ablation and Iridium-family training runners are also absent from the inspected package; reports and manifests alone do not reproduce those trainings.
-- The root `requirements-analysis.txt` covers diagnostic dependencies but is not a recovered historical environment lockfile.
-- `MANIFEST_PROVENANCE.json` distinguishes the portable Iridium manifest fingerprint from the historical fingerprint retained in the paper and historical reports.
+The repository remains private. Code is MIT; author-written documentation is CC BY 4.0. Third-party source material is outside these grants. No release or DOI has been issued.

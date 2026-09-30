@@ -38,6 +38,8 @@ See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary be
 - `prepare_rq2_split.py` and `verify_rq2_gates.py` — RQ2 identity-gated split utilities.
 - `rq1_training/` — complete RQ1 training, validation, held-out evaluation, and verification code.
 - `rq2/` — recovered shareable RQ2 source-audit, identity-review, and split-preparation utilities.
+- `Recovered_Experiment_Records_v0.9.0.zip` — recovered original runners, final splits, checkpoints and experiment records.
+- `RECOVERED_RECORDS_VERIFICATION.json` — new archive-integrity checks.
 - Protocol and audit Markdown files documenting the analyses and their limitations.
 - `RELEASE_AUDIT_v0.9.0.md` — checks completed for this private release candidate and the remaining publication blockers.
 
@@ -51,7 +53,7 @@ The included scripts may refer to artifacts from the original analysis workspace
 
 Run `python verify_rq2_gates.py` for an offline synthetic splitter check; it does not use telemetry or reproduce RQ2 model results. Install `requirements-analysis.txt` for the root plotting/report tools. Those tools additionally need the excluded frozen `outputs/` trees at repository root.
 
-The historical NEXT-5 ablation and Iridium-family training runners are not included. Their reports and manifests are archival evidence, not a complete rerunnable implementation. See `MANIFEST_PROVENANCE.json` for the distinction between historical and portable manifest hashes.
+Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 ablation, Iridium-family, and RQ2 reconstruction v1.1 packages, including runners, manifests, splits, saved checkpoints, predictions and historical verification records. See EXPERIMENT_RECORDS_README.md and RECOVERED_RECORDS_VERIFICATION.json. Permitted raw input data and configuration of historical paths are still needed for execution; no clean-environment full replay is claimed. See `MANIFEST_PROVENANCE.json` for the distinction between historical and portable manifest hashes.
 
 1. Reconstruct the permitted input datasets and verify source hashes.
 2. Apply the frozen flight/group splits and deterministic masks.
@@ -59,7 +61,7 @@ The historical NEXT-5 ablation and Iridium-family training runners are not inclu
 4. Replay saved checkpoints and verify predictions and reported aggregate metrics.
 5. Confirm the manifest fingerprints listed in `INTEGRITY_RECORDS.json`.
 
-The RQ1 environment is pinned in `rq1_training/requirements.txt`. The historical RQ2 model-fitting/evaluation runner was not present in the recovered shareable archive; the release metadata and RQ2 README state this limitation explicitly rather than claiming end-to-end RQ2 reproducibility.
+The RQ1 environment is pinned in `rq1_training/requirements.txt`. The historical RQ2 reconstruction runner and replay verifier are now restored in the recovery archive.
 
 ## Citation
 

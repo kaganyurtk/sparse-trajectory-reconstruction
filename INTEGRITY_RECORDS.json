@@ -19,6 +19,7 @@
       "verification": "10 checkpoints replayed within 1e-12"
     }
   },
-  "release_status": "private archival draft; verify machine-readable source records before public v0.9.0"
+  "release_status": "private v0.9.0 candidate; original experiment packages recovered; archive integrity checked; full clean-environment replay not performed",
+  "recovered_archive": "Recovered_Experiment_Records_v0.9.0.zip",
+  "recovery_verification": "RECOVERED_RECORDS_VERIFICATION.json"
 }
-

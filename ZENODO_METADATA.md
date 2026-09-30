@@ -15,7 +15,7 @@ This file records the intended metadata for the first archived software release.
 
 ## Description
 
-Reproducibility materials for matched unconstrained and kinematically constrained neural-network studies of sparse rocket-trajectory reconstruction across Falcon 9 webcast telemetry and public FlightSketch records. The package contains complete RQ1 training, validation, held-out evaluation, and verification code, plus safe RQ2 data-curation and split-preparation utilities. Raw and processed third-party telemetry, trained model weights, generated prediction trees, and the unavailable historical RQ2 model-fitting/evaluation runner are excluded. The release therefore supports complete inspection of the RQ1 implementation and partial inspection of the RQ2 preparation workflow without claiming end-to-end RQ2 numerical reproducibility.
+Reproducibility materials for sparse rocket trajectory reconstruction across Falcon 9 and FlightSketch telemetry. Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 ablation, Iridium-family, and RQ2 reconstruction v1.1 packages, including runners, manifests, splits, saved checkpoints, predictions and historical verification records. See EXPERIMENT_RECORDS_README.md and RECOVERED_RECORDS_VERIFICATION.json. Permitted raw input data and configuration of historical paths are still needed for execution; no clean-environment full replay is claimed.
 
 ## Keywords
 

@@ -1,0 +1,16 @@
+{
+  "archive_sha256": {
+    "rq1_final_complete.zip": "d563151b59658cac0adc3ac73242fce40bbe5434083af0102d9bade7ad445253",
+    "rq1_iridium_family_lofo_complete.zip": "efc6b68fbc0c045447c378e6823de45479dc32da65c6000a876b254cfd7de6f3",
+    "rq1_kinematic_term_ablation_complete.zip": "481317f8945c64cfe20a0f03480f388d8d2bbd78868d884c30428ff7dc1f8021",
+    "RQ2_CONFIRMATORY_RECONSTRUCTION_v1_1_2026-09-26.zip": "f5d53c89830083cc69c6e745d99a0773dfa12cdfd81eaac251956f38a8f6c60c"
+  },
+  "rq2_original_sha256sum_files_verified": 27,
+  "rq2_manifest_fingerprint": "9efc8c68fc63ac7603e471e101571417017ac5bfb51398fa2f718396761f8782",
+  "rq2_checkpoint_hashes_verified": 10,
+  "rq2_test_flights": 46,
+  "rq2_test_groups": 8,
+  "rq2_groups_disjoint": true,
+  "rq1_inner_split_matches_deposited_code": true,
+  "scope": "Archive integrity and split consistency checked on 2026-09-30. Historical verification records are preserved; training and metric replay were not rerun."
+}

@@ -16,16 +16,12 @@ This release candidate archives the reproducibility materials supporting the stu
 
 RQ2 reuses the matched NN and KC-NN model family and comparison logic developed for RQ1. It is a cross-dataset application of the same method, not a zero-shot evaluation of frozen Falcon 9 weights. The confirmatory RQ2 v1.1 analysis is an independent reconstruction and not the original pristine sealed test.
 
-## Excluded
+## Recovered experiment records
 
-- Raw or processed third-party FlightSketch trajectories.
-- Trained model weights and generated prediction trees.
-- Credentials, local environments, caches, and machine-specific paths.
-- The historical RQ2 model-fitting/evaluation runner, which was not present in the recovered shareable archive.
-- Historical NEXT-5 ablation and Iridium-family training runners, also absent from the inspected package.
+Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 ablation, Iridium-family, and RQ2 reconstruction v1.1 packages, including runners, manifests, splits, saved checkpoints, predictions and historical verification records. See EXPERIMENT_RECORDS_README.md and RECOVERED_RECORDS_VERIFICATION.json. Permitted raw input data and configuration of historical paths are still needed for execution; no clean-environment full replay is claimed.
 
 ## Release boundary
 
-RQ1 source-level and end-to-end experiment logic is included, but reproducing its numerical outputs requires authorized processed telemetry. RQ2 curation and split preparation are included; the numerical RQ2 results are not claimed to be end-to-end reproducible from this repository alone.
+Raw third-party telemetry is excluded. Original experiment records retain historical paths for provenance. Full numerical replay requires the permitted inputs and path configuration.
 
 The repository remains private until the author separately approves public visibility. Software and code are licensed under MIT; author-written prose and manuscript materials are licensed under CC BY 4.0. Third-party telemetry is outside both grants. No Zenodo record or GitHub release should be published before the manuscript-distribution status and remaining release checks are resolved.
