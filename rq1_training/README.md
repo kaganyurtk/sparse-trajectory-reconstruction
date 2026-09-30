@@ -1,6 +1,6 @@
-# RQ1 Reproducibility Package
+# Sparse Rocket Trajectory Reconstruction
 
-This repository contains the training, validation, and held-out test evaluation code for **RQ1** of the study *Physics-Informed Neural Networks for Rocket Trajectory Prediction: Limited-Data Learning and Cross-Vehicle Generalization*.
+This directory contains the main RQ1 Falcon 9 experiment code for *When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets*. RQ2 preparation utilities are located in the repository's sibling `rq2/` directory.
 
 RQ1 compares a data-driven neural network (NN) with a kinematically constrained neural network (KC-NN) for predicting Falcon 9 altitude and speed during the first 120 seconds of flight under limited observations. Both methods use the same 32×32 `tanh` architecture, inputs, initialization, optimization budget, and data masks. KC-NN adds the physically valid inequality constraint
 
@@ -22,8 +22,15 @@ where `v` is speed magnitude rather than vertical speed.
 - `RQ1_EXPERIMENT_PROTOCOL.md`: frozen experimental protocol.
 - `docs/`: reports and evaluation documentation retained from the completed experiment.
 - `data/README.md`: required data layout and schema.
+- `../rq2/`: FlightSketch curation, identity-review, deterministic split preparation, and gate-verification utilities.
 
 Generated predictions, model weights, processed telemetry, and other bulky run artifacts are intentionally excluded from this code package.
+
+## Relationship between RQ1 and RQ2
+
+RQ2 does not introduce a third model architecture. It carries the same matched NN and KC-NN model family and comparison logic developed for RQ1 into an independent public-source reconstruction setting. The RQ2 analysis nevertheless uses its own FlightSketch fit/validation partitions, fit-only target scaling, deterministic sparse-observation masks, and paired optimization seeds. It is therefore a cross-dataset application of the same method, not a zero-shot evaluation of frozen Falcon 9 weight files.
+
+The `rq2/` directory contains the shareable FlightSketch source-audit, identity-review, and split-gate utilities recovered from the frozen Drive package. It intentionally excludes raw or processed third-party trajectories, trained checkpoints, and generated result trees. The historical RQ2 model-fitting/evaluation runner was not present in the recovered shareable archive, so this repository does not claim that the RQ2 numerical results can be reproduced end to end from the included files alone.
 
 ## Environment
 
@@ -88,7 +95,7 @@ Do not use held-out test results to change the model, constraint, preprocessing,
 
 ## Reproducibility boundary
 
-This release provides the complete experiment code but not the processed telemetry or trained weights. Consequently, source-level and synthetic checks can be inspected immediately, while end-to-end numerical reproduction requires authorized copies of the frozen processed data. The study covers only the early-ascent interval from T+0 to T+120 seconds and should not be interpreted as full-flight or orbital prediction.
+For RQ1, this release provides the complete experiment code but not the processed telemetry or trained weights. For RQ2, it provides the recovered shareable curation and split-preparation code but not the historical model-fitting/evaluation runner, processed trajectories, checkpoints, or generated result tree. Consequently, source-level and synthetic checks can be inspected immediately, while end-to-end numerical reproduction requires the missing frozen artifacts and authorized data access. The study covers sparse trajectory reconstruction and should not be interpreted as full-flight or orbital prediction.
 
 ## Citation
 
@@ -96,4 +103,4 @@ Citation metadata is provided in `CITATION.cff`. Add the final publication DOI a
 
 ## License
 
-No software license has been selected yet. Until a license file is added, normal copyright restrictions apply.
+Code is covered by the repository-root MIT License. Author-written prose is covered by CC BY 4.0. See `../LICENSE_SCOPE.md`; third-party telemetry is excluded.
