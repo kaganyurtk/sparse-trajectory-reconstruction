@@ -20,11 +20,23 @@ def read_csv(path: Path) -> list[dict[str, str]]:
 
 def main() -> None:
     root = Path(__file__).resolve().parent
-    review = root / "outputs/flightsketch_audit/identity_review_template.csv"
     splitter = root / "prepare_rq2_split.py"
 
     with tempfile.TemporaryDirectory(prefix="rq2_gate_test_") as temp_name:
         temp = Path(temp_name)
+        # Isolated synthetic fixture: no telemetry or production identity decisions.
+        review = temp / "pending_fixture.csv"
+        rows = [{
+            "vehicle_key": f"fixture-{i:03d}",
+            "uploader": "bcawley1, Bernard" if i < 64 else "synthetic_external",
+            "passing_records": "1", "identity_decision": "pending",
+            "canonical_vehicle_id": "", "configuration_policy": "",
+            "evidence_source": "synthetic_verification_fixture",
+        } for i in range(68)]
+        with review.open("w", newline="", encoding="utf-8") as handle:
+            writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+            writer.writeheader()
+            writer.writerows(rows)
         blocked_output = temp / "blocked.csv"
         blocked = subprocess.run(
             [sys.executable, str(splitter), "--identity-review", str(review), "--output", str(blocked_output)],
@@ -77,8 +89,6 @@ def main() -> None:
         "model_training_runs": 0,
         "rq1_test_trajectory_inputs": 0,
     }
-    output = root / "outputs/flightsketch_audit/rq2_gate_verification.json"
-    output.write_text(json.dumps(result, indent=2, sort_keys=True), encoding="utf-8")
     print(json.dumps(result, indent=2))
     if result["status"] != "passed":
         raise SystemExit(1)
@@ -86,4 +96,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
