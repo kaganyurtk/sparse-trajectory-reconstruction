@@ -4,7 +4,7 @@ title: "Sparse trajectory reconstruction under kinematic constraints"
 type: software
 authors:
   - family-names: "Yurtkölesi"
-    given-names: "Tek Kağan"
+    given-names: "Kağan"
     affiliation: "Department of Aerospace Engineering, Izmir University of Economics"
     email: "kagan.yurtkolesi@std.iue.edu.tr"
 version: 1.0.0
@@ -32,5 +32,5 @@ preferred-citation:
   title: "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets"
   authors:
     - family-names: "Yurtkölesi"
-      given-names: "Tek Kağan"
+      given-names: "Kağan"
   year: 2026

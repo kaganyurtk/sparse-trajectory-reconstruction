@@ -8,7 +8,7 @@ This file records the intended metadata for the first archived software release.
 - Title: Sparse trajectory reconstruction under kinematic constraints
 - Version: 1.0.0
 - Release date: 2026-09-30
-- Creator: Tek Kağan Yurtkölesi
+- Creator: Kağan Yurtkölesi
 - Affiliation: Department of Aerospace Engineering, Izmir University of Economics, Izmir, Türkiye
 - Repository: https://github.com/kaganyurtk/sparse-trajectory-reconstruction
 - Language: English
@@ -32,4 +32,4 @@ The intended access right is open after the repository passes the final release 
 
 ## Publication relationship
 
-Associated manuscript: "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets" by Tek Kağan Yurtkölesi (2026). Add the journal DOI as `isSupplementTo` only after a DOI exists.
+Associated manuscript: "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets" by Kağan Yurtkölesi (2026). Add the journal DOI as `isSupplementTo` only after a DOI exists.

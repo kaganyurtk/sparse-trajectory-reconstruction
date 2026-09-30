@@ -4,7 +4,7 @@ Reproducibility workspace for the manuscript:
 
 > **When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets**
 
-**Author:** Tek Kağan Yurtkölesi  
+**Author:** Kağan Yurtkölesi  
 **Affiliation:** Department of Aerospace Engineering, Izmir University of Economics, Izmir, Türkiye
 
 ## Scope

@@ -1,6 +1,6 @@
 # Documentation license
 
-Copyright © 2026 Tek Kağan Yurtkölesi.
+Copyright © 2026 Kağan Yurtkölesi.
 
 Unless a file states otherwise, the author-written manuscript, Supplementary
 Information, protocols, reports, and other prose documentation in this
