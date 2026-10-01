@@ -1,13 +1,16 @@
 # Zenodo metadata for version 0.9.0
 
-This file records the intended metadata for the first archived software release. `CITATION.cff` remains the machine-readable source used by the GitHub-Zenodo integration.
+This file records the identifiers of the published software archive. Changes on main do not alter the frozen v0.9.0 tag or deposited files.
 
 ## Record
 
 - Resource type: Software
 - Title: Sparse trajectory reconstruction under kinematic constraints
 - Version: 0.9.0
-- Release date: not yet published; set on actual publication
+- Release date: 2026-10-01
+- Version DOI: https://doi.org/10.5281/zenodo.23080487
+- Concept DOI: https://doi.org/10.5281/zenodo.23080486
+- Record: https://zenodo.org/records/23080487
 - Creator: Kağan Yurtkölesi
 - Affiliation: Department of Aerospace Engineering, Izmir University of Economics, Izmir, Türkiye
 - Repository: https://github.com/kaganyurtk/sparse-trajectory-reconstruction
@@ -28,8 +31,9 @@ Reproducibility materials for sparse rocket trajectory reconstruction across Fal
 
 ## Access and licensing
 
-The intended access right is open after the repository passes the final release audit and the author approves public visibility. Software and code use the MIT License. Author-written manuscript and documentation use CC BY 4.0. Third-party telemetry is not included and is not covered by either license.
+The repository and archived record are public. Software and code use the MIT License. Author-written manuscript and documentation use CC BY 4.0. Third-party telemetry is not included and is not covered by either license.
 
 ## Publication relationship
 
 Associated manuscript: "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets" by Kağan Yurtkölesi (2026). Add the journal DOI as `isSupplementTo` only after a DOI exists.
+
