@@ -17,7 +17,8 @@ Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 
 - RQ2 final manifest, test IDs and group separation validated.
 - RQ1 inner split agrees with the historical record.
 - CRediT and research-permission statements completed from the author instructions.
+- Saved-artifact audit on 1 October: 50 RQ1 prediction files and weight hashes verified, per-flight metrics and scores recomputed; ten RQ2 checkpoints loaded and exercised on synthetic inputs, summary arithmetic independently checked. See OFFLINE_REPLAY_AUDIT_2026-10-01.md.
 
 ## Boundaries
 
-These are integrity and consistency checks, not new model training or full metric replay. Historical scripts retain their original workspace paths; source data and path configuration are needed for execution. The repository remains private pending public-release preparation and manuscript-distribution review.
+These are integrity and saved-artifact consistency checks, not new model training or full raw-telemetry metric replay. Historical scripts retain their original workspace paths; source data and path configuration are needed for execution. The repository remains private pending public-release preparation and manuscript-distribution review.
