@@ -30,7 +30,7 @@ Generated predictions, model weights, processed telemetry, and other bulky run a
 
 RQ2 does not introduce a third model architecture. It carries the same matched NN and KC-NN model family and comparison logic developed for RQ1 into an independent public-source reconstruction setting. The RQ2 analysis nevertheless uses its own FlightSketch fit/validation partitions, fit-only target scaling, deterministic sparse-observation masks, and paired optimization seeds. It is therefore a cross-dataset application of the same method, not a zero-shot evaluation of frozen Falcon 9 weight files.
 
-The `rq2/` directory contains the shareable FlightSketch source-audit, identity-review, and split-gate utilities recovered from the frozen Drive package. It intentionally excludes raw or processed third-party trajectories, trained checkpoints, and generated result trees. The historical RQ2 model-fitting/evaluation runner was not present in the recovered shareable archive, so this repository does not claim that the RQ2 numerical results can be reproduced end to end from the included files alone.
+The original RQ1 final, NEXT-5 ablation, Iridium-family and RQ2 reconstruction v1.1 packages have now been recovered in `../Recovered_Experiment_Records_v0.9.0.zip`. This includes the RQ2 runner, final split, checkpoints and historical verification records. See the repository-root `EXPERIMENT_RECORDS_README.md`. Execution still requires permitted source data and configuration of historical paths; a clean-environment end-to-end replay has not been performed.
 
 ## Environment
 
@@ -95,7 +95,7 @@ Do not use held-out test results to change the model, constraint, preprocessing,
 
 ## Reproducibility boundary
 
-For RQ1, this release provides the complete experiment code but not the processed telemetry or trained weights. For RQ2, it provides the recovered shareable curation and split-preparation code but not the historical model-fitting/evaluation runner, processed trajectories, checkpoints, or generated result tree. Consequently, source-level and synthetic checks can be inspected immediately, while end-to-end numerical reproduction requires the missing frozen artifacts and authorized data access. The study covers sparse trajectory reconstruction and should not be interpreted as full-flight or orbital prediction.
+The original RQ1 final, NEXT-5 ablation, Iridium-family and RQ2 reconstruction v1.1 packages have now been recovered in `../Recovered_Experiment_Records_v0.9.0.zip`. This includes the RQ2 runner, final split, checkpoints and historical verification records. See the repository-root `EXPERIMENT_RECORDS_README.md`. Execution still requires permitted source data and configuration of historical paths; a clean-environment end-to-end replay has not been performed.
 
 ## Citation
 
