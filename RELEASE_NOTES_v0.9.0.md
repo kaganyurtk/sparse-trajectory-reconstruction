@@ -24,4 +24,6 @@ Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 
 
 Raw third-party telemetry is excluded. Original experiment records retain historical paths for provenance. Full numerical replay requires the permitted inputs and path configuration.
 
-The repository remains private until the author separately approves public visibility. Software and code are licensed under MIT; author-written prose and manuscript materials are licensed under CC BY 4.0. Third-party telemetry is outside both grants. No Zenodo record or GitHub release should be published before the manuscript-distribution status and remaining release checks are resolved.
+The 1 October saved-artifact audit (`OFFLINE_REPLAY_AUDIT_2026-10-01.md`) passed on the recovered records. The previously completed historical experiments and replay records remain the scientific results; no new training or raw-data replay is required to preserve or accurately report them. A fresh clean-environment raw-data replay would be an additional reproducibility check, not a condition for describing this v0.9.0 package as a historical-results release candidate.
+
+The repository remains private until the author separately approves public visibility. Software and code are licensed under MIT; author-written prose and manuscript materials are licensed under CC BY 4.0. Third-party telemetry is outside both grants. No Zenodo record has been created. Public distribution of the manuscript and package should be checked separately from the validity of the already completed experiments.
