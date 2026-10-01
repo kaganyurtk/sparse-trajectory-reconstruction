@@ -63,6 +63,8 @@ Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 
 
 The RQ1 environment is pinned in `rq1_training/requirements.txt`. The historical RQ2 reconstruction runner and replay verifier are now restored in the recovery archive.
 
+A fresh offline saved-artifact audit is documented in `OFFLINE_REPLAY_AUDIT_2026-10-01.md`; its NumPy runner is `offline_replay_audit.py`. It independently recomputes RQ1 saved-prediction metrics and RQ2 summary arithmetic, but cannot regenerate predictions from the excluded third-party source telemetry.
+
 ## Citation
 
 Citation metadata is provided in [`CITATION.cff`](CITATION.cff). A DOI will be added after the verified `v0.9.0` release is archived with Zenodo.
