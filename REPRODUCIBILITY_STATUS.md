@@ -6,11 +6,13 @@ Recovered_Experiment_Records_v0.9.0.zip restores the original RQ1 final, NEXT-5 
 
 The RQ1 inner split matches the deposited implementation. All 27 RQ2 archived checksum entries and all ten checkpoint hashes validate. The RQ2 manifest fingerprint matches the paper; its 46 test flight IDs and eight test groups match the split record, with pairwise separation from fitting and validation groups. Historical replay logs are retained and explicitly distinguished from the new integrity checks.
 
-## Remaining execution and publication requirements
+An additional saved-artifact audit on 1 October 2026 recomputed RQ1 per-flight metrics and scores from all 50 saved prediction files (726 rows each), matched all 50 saved weight hashes, loaded and exercised all ten RQ2 checkpoints on synthetic inputs, and independently checked RQ2 scores and five paired-seed differences. See OFFLINE_REPLAY_AUDIT_2026-10-01.md. This does not replace raw-telemetry metric replay.
+
+## Additional reproducibility work and publication checks
 
 - Supply permitted source telemetry and configure historical input paths.
 - Assemble a clean execution environment; RQ1 records specify Python 3.12.14, NumPy 2.3.5 and PyTorch 2.7.1+cpu.
-- Re-run replay checks from the assembled package before claiming end-to-end reproducibility. No new training is required merely to preserve the recovered results.
+- Re-run the original verifiers only if claiming a new clean-environment, raw-telemetry end-to-end reproduction. This is not required to preserve and report the completed historical experiments.
 - Confirm manuscript distribution terms before public release. The author has confirmed research-use permission; raw telemetry remains excluded.
 
 The repository remains private. Code is MIT; author-written documentation is CC BY 4.0. Third-party source material is outside these grants. No release or DOI has been issued.
