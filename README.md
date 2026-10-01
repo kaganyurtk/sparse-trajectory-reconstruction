@@ -20,7 +20,7 @@ The main scientific conclusion is deliberately conditional: a constraint can red
 
 ## Repository status
 
-This repository is currently a **private v0.9.0 release candidate**. It contains the manuscript, Supplementary Information, frozen protocols, integrity records, complete RQ1 experiment code, and the safe RQ2 preparation utilities recovered from the project archive. It has not yet been made public or archived with Zenodo.
+This repository is a **private v0.9.0 prerelease package**. It contains the manuscript, Supplementary Information, frozen protocols, integrity records, complete RQ1 experiment code, and the safe RQ2 preparation utilities recovered from the project archive. It has not been made public or archived with Zenodo.
 
 See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary between verified contents and items still required before a public release.
 
