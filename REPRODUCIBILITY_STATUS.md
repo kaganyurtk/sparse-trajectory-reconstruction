@@ -15,4 +15,4 @@ An additional saved-artifact audit on 1 October 2026 recomputed RQ1 per-flight m
 - Re-run the original verifiers only if claiming a new clean-environment, raw-telemetry end-to-end reproduction. This is not required to preserve and report the completed historical experiments.
 - Confirm manuscript distribution terms before public release. The author has confirmed research-use permission; raw telemetry remains excluded.
 
-The repository remains private. Code is MIT; author-written documentation is CC BY 4.0. Third-party source material is outside these grants. No release or DOI has been issued.
+The repository remains private. Code is MIT; author-written documentation is CC BY 4.0. Third-party source material is outside these grants. No Zenodo DOI has been issued.
