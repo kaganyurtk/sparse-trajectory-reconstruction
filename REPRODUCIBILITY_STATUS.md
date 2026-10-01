@@ -13,6 +13,6 @@ An additional saved-artifact audit on 1 October 2026 recomputed RQ1 per-flight m
 - Supply permitted source telemetry and configure historical input paths.
 - Assemble a clean execution environment; RQ1 records specify Python 3.12.14, NumPy 2.3.5 and PyTorch 2.7.1+cpu.
 - Re-run the original verifiers only if claiming a new clean-environment, raw-telemetry end-to-end reproduction. This is not required to preserve and report the completed historical experiments.
-- Confirm manuscript distribution terms before public release. The author has confirmed research-use permission; raw telemetry remains excluded.
+- The current manuscript uses publicly accessible FlightSketch records and does not assert a separate research-permission grant. Raw third-party telemetry remains excluded; any later redistribution of the CSV files would require its own rights basis.
 
-The repository remains private. Code is MIT; author-written documentation is CC BY 4.0. Third-party source material is outside these grants. No Zenodo DOI has been issued.
+The repository and v0.9.0 Zenodo archive are public. Code is MIT; author-written documentation is CC BY 4.0. Third-party source material is outside these grants. The v0.9.0 archive DOI is 10.5281/zenodo.23080487; later version-specific DOIs must be cited separately.

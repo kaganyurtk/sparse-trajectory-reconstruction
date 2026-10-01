@@ -2,7 +2,7 @@
 
 Date: 2026-09-23  
 Scope: FlightSketch RQ2 identity policy, development-cohort traceability, and final-test firewall  
-Permission status: **completed — permission granted**  
+Source status (2026-10-02 clarification): **public FlightSketch pages and CSV downloads; no separate research-permission attestation is made in the v1.0 release**  
 Trajectory release in this artifact: **none**  
 Final-test status: **not created, not accessed, not assigned**
 
