@@ -1,4 +1,15 @@
-# Zenodo metadata for version 0.9.0
+# Zenodo version metadata
+
+## Version 1.0.0
+
+- Reserved version DOI: https://doi.org/10.5281/zenodo.23092096
+- Record draft: https://zenodo.org/uploads/23092096
+- Concept DOI: https://doi.org/10.5281/zenodo.23080486
+- Release date: 2026-10-02
+- Scope: updated documentation and submission working copy, no new training or numerical result changes; public FlightSketch downloads analyzed, raw third-party CSV files excluded.
+- Reproducibility: saved-artifact and integrity checks completed; clean-environment full raw-telemetry replay not claimed.
+
+## Historical version 0.9.0
 
 This file records the identifiers of the published software archive. Changes on main do not alter the frozen v0.9.0 tag or deposited files.
 
@@ -36,4 +47,3 @@ The repository and archived record are public. Software and code use the MIT Lic
 ## Publication relationship
 
 Associated manuscript: "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets" by Kağan Yurtkölesi (2026). Add the journal DOI as `isSupplementTo` only after a DOI exists.
-

@@ -20,7 +20,7 @@ The main scientific conclusion is deliberately conditional: a constraint can red
 
 ## Repository status
 
-This repository is public. The frozen **v0.9.0** release is archived at **https://doi.org/10.5281/zenodo.23080487**. It contains the manuscript snapshot, Supplementary Information, protocols, integrity records, RQ1 code, and recovered RQ2 runners and checkpoints. The main branch also contains later submission-text clarifications; the published tag and Zenodo files are unchanged.
+This repository is public. The frozen **v0.9.0** release remains at **https://doi.org/10.5281/zenodo.23080487**. The **v1.0.0** release is linked to **https://doi.org/10.5281/zenodo.23092096**. It adds clarified submission text and a release audit without new model training or numerical changes. The v0.9.0 tag and Zenodo files are unchanged.
 
 See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for historical reproducibility limitations. Publication status in older audit files reflects their preparation date.
 
@@ -41,11 +41,13 @@ See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for historical repr
 - `Recovered_Experiment_Records_v0.9.0.zip` — recovered original runners, final splits, checkpoints and experiment records.
 - `RECOVERED_RECORDS_VERIFICATION.json` — new archive-integrity checks.
 - Protocol and audit Markdown files documenting the analyses and their limitations.
-- `RELEASE_AUDIT_v0.9.0.md` — checks completed for the historical release candidate; see the newer submission checklist for current review items.
+- `RELEASE_AUDIT_v0.9.0.md` — historical v0.9 checks.
+- `RELEASE_AUDIT_v1.0.0.md` and `RELEASE_NOTES_v1.0.0.md` — current scientific and source-rights scope.
+- `Acta_Manuscript_Submission.docx`, `Acta_Supplement_Submission.docx`, and `Acta_Submission_v1.0.0.zip` — updated submission working copy.
 
 ## Data availability boundary
 
-Raw third-party FlightSketch CSV files are **not included**. Public-source access does not automatically imply redistribution permission. Their use remains subject to the applicable written authorization and attribution requirements.
+Raw third-party FlightSketch CSV files are **not included**. The analyzed flight pages and CSV downloads are publicly accessible; no separate research-permission grant is asserted for their analysis. Public download access alone does not establish a license to republish the raw files. Source attribution and provenance are documented in the RQ2 protocols.
 
 The included scripts may refer to artifacts from the original analysis workspace that are not yet deposited. Their presence documents the verified analysis logic; it does not imply that the repository is already executable end to end.
 
@@ -65,19 +67,18 @@ The RQ1 environment is pinned in `rq1_training/requirements.txt`. The historical
 
 A fresh offline saved-artifact audit is documented in `OFFLINE_REPLAY_AUDIT_2026-10-01.md`; its NumPy runner is `offline_replay_audit.py`. It independently recomputes RQ1 saved-prediction metrics and RQ2 summary arithmetic, but cannot regenerate predictions from the excluded third-party source telemetry.
 
-## Submission-text clarification — 1 October 2026
+## Submission-text clarification — 2 October 2026
 
 The current manuscript and supplement describe the actual archived implementation; numerical results are unchanged and no new training was performed. RQ2 v1.1 fitted dataset-specific FlightSketch weights, not transferred Falcon 9 checkpoints. It uses sparse reconstruction inputs with complete fitting and inner-validation targets. Its archived penalty omits the velocity mean when reconstructing channels, so its normalized residual differs from physical channel equality by μ_v/σ_v ≈ −0.00041023. The effect of correcting this offset has not been tested. These limitations prevent treating the two datasets as the same limited-label estimand or a controlled causal transfer test.
 
-The [submission files](Acta_Submission_2026-10-01.zip) contain highlights, a cover-letter draft, a Turkish author-review checklist, and the implementation audit. The manuscript has **not been submitted to the journal**. Author review and the checklist's unresolved scientific/source requirements remain necessary.
+The [current submission files](Acta_Submission_v1.0.0.zip) contain highlights, a cover-letter draft, a Turkish author-review checklist, and the implementation audit. The manuscript has **not been submitted to the journal**. Author review and the checklist's unresolved scientific/source requirements remain necessary.
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Cite: Yurtkölesi, K. (2026). *Sparse trajectory reconstruction under kinematic constraints* (v0.9.0). Zenodo. https://doi.org/10.5281/zenodo.23080487. This is the reproducibility-archive DOI, not a journal-article DOI.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Cite: Yurtkölesi, K. (2026). *Sparse trajectory reconstruction under kinematic constraints* (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.23092096. This is the reproducibility-archive DOI, not a journal-article DOI.
 
 ## License
 
 Software and code are licensed under the [MIT License](LICENSE). The author-written manuscript, Supplementary Information, protocols, reports, and other prose documentation are licensed under [CC BY 4.0](DOCUMENTATION_LICENSE.md). See [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md) for the exact boundary.
 
-These licenses do not cover third-party telemetry or other externally owned material. Such material remains governed by its original terms and any written authorization.
-
+These licenses do not cover third-party telemetry or other externally owned material. Such material remains governed by its original terms and any applicable rights.
