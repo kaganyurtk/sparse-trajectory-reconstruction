@@ -13,21 +13,21 @@ The study compares matched unconstrained neural networks (NN) and kinematically 
 
 - **RQ1:** 40 Falcon 9 flights; 28 training, 6 outer-validation, and 6 held-out test flights.
 - **RQ2:** an independent FlightSketch reconstruction with a confirmatory v1.1 group-held-out evaluation.
-- **Primary observation condition:** 5% of each trajectory, with deterministic matched masks.
+- **Primary observation condition:** 5%, with deterministic masks; RQ1 sparsifies fitting labels, whereas RQ2 v1.1 sparsifies reconstruction inputs and retains complete fitting labels.
 - **Paired seeds:** 11, 29, 47, 71, and 97.
 
 The main scientific conclusion is deliberately conditional: a constraint can reduce kinematic violations without improving predictive generalization when the measured channels do not match the assumed physical relation.
 
 ## Repository status
 
-This repository is a **private v0.9.0 prerelease package**. It contains the manuscript, Supplementary Information, frozen protocols, integrity records, complete RQ1 experiment code, and the safe RQ2 preparation utilities recovered from the project archive. It has not been made public or archived with Zenodo.
+This repository is public. The frozen **v0.9.0** release is archived at **https://doi.org/10.5281/zenodo.23080487**. It contains the manuscript snapshot, Supplementary Information, protocols, integrity records, RQ1 code, and recovered RQ2 runners and checkpoints. The main branch also contains later submission-text clarifications; the published tag and Zenodo files are unchanged.
 
-See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary between verified contents and items still required before a public release.
+See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for historical reproducibility limitations. Publication status in older audit files reflects their preparation date.
 
 ## Included materials
 
-- `Acta_Astronautica_Manuscript.docx` — current manuscript.
-- `Acta_Astronautica_Supplementary_Information.docx` — supplementary methods and results.
+- `Acta_Astronautica_Manuscript.docx` — frozen v0.9 manuscript snapshot.
+- `Acta_Astronautica_Supplementary_Information.docx` — frozen v0.9 supplement snapshot.
 - `INTEGRITY_RECORDS.json` — frozen fingerprints and replay status reported in the paper.
 - `MANIFEST_PROVENANCE.json` — relationship between the historical and path-normalized Iridium manifest fingerprints.
 - `requirements-analysis.txt` — installation requirements for the root diagnostic and plotting scripts.
@@ -41,11 +41,11 @@ See [`REPRODUCIBILITY_STATUS.md`](REPRODUCIBILITY_STATUS.md) for the boundary be
 - `Recovered_Experiment_Records_v0.9.0.zip` — recovered original runners, final splits, checkpoints and experiment records.
 - `RECOVERED_RECORDS_VERIFICATION.json` — new archive-integrity checks.
 - Protocol and audit Markdown files documenting the analyses and their limitations.
-- `RELEASE_AUDIT_v0.9.0.md` — checks completed for this private release candidate and the remaining publication blockers.
+- `RELEASE_AUDIT_v0.9.0.md` — checks completed for the historical release candidate; see the newer submission checklist for current review items.
 
 ## Data availability boundary
 
-Raw third-party FlightSketch CSV files are **not included**. Public-source access does not automatically imply redistribution permission. A public release must follow the written authorization and attribution requirements applicable to those files. Derived metadata may be released only after a final privacy, provenance, and permission check.
+Raw third-party FlightSketch CSV files are **not included**. Public-source access does not automatically imply redistribution permission. Their use remains subject to the applicable written authorization and attribution requirements.
 
 The included scripts may refer to artifacts from the original analysis workspace that are not yet deposited. Their presence documents the verified analysis logic; it does not imply that the repository is already executable end to end.
 
@@ -65,12 +65,19 @@ The RQ1 environment is pinned in `rq1_training/requirements.txt`. The historical
 
 A fresh offline saved-artifact audit is documented in `OFFLINE_REPLAY_AUDIT_2026-10-01.md`; its NumPy runner is `offline_replay_audit.py`. It independently recomputes RQ1 saved-prediction metrics and RQ2 summary arithmetic, but cannot regenerate predictions from the excluded third-party source telemetry.
 
+## Submission-text clarification — 1 October 2026
+
+The current manuscript and supplement describe the actual archived implementation; numerical results are unchanged and no new training was performed. RQ2 v1.1 fitted dataset-specific FlightSketch weights, not transferred Falcon 9 checkpoints. It uses sparse reconstruction inputs with complete fitting and inner-validation targets. Its archived penalty omits the velocity mean when reconstructing channels, so its normalized residual differs from physical channel equality by μ_v/σ_v ≈ −0.00041023. The effect of correcting this offset has not been tested. These limitations prevent treating the two datasets as the same limited-label estimand or a controlled causal transfer test.
+
+The [submission files](Acta_Submission_2026-10-01.zip) contain highlights, a cover-letter draft, a Turkish author-review checklist, and the implementation audit. The manuscript has **not been submitted to the journal**. Author review and the checklist's unresolved scientific/source requirements remain necessary.
+
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). A DOI will be added after the verified `v0.9.0` release is archived with Zenodo.
+Citation metadata is provided in [`CITATION.cff`](CITATION.cff). Cite: Yurtkölesi, K. (2026). *Sparse trajectory reconstruction under kinematic constraints* (v0.9.0). Zenodo. https://doi.org/10.5281/zenodo.23080487. This is the reproducibility-archive DOI, not a journal-article DOI.
 
 ## License
 
 Software and code are licensed under the [MIT License](LICENSE). The author-written manuscript, Supplementary Information, protocols, reports, and other prose documentation are licensed under [CC BY 4.0](DOCUMENTATION_LICENSE.md). See [`LICENSE_SCOPE.md`](LICENSE_SCOPE.md) for the exact boundary.
 
 These licenses do not cover third-party telemetry or other externally owned material. Such material remains governed by its original terms and any written authorization.
+
