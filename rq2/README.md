@@ -18,6 +18,6 @@ python verify_rq2_gates.py
 
 ## Scientific and redistribution boundary
 
-These utilities prepare and verify the RQ2 data audit. They do not train or evaluate the neural models. The historical RQ2 fitting/evaluation runner was not included in the recovered shareable archive and has not been reconstructed here.
+The original RQ1 final, NEXT-5 ablation, Iridium-family and RQ2 reconstruction v1.1 packages have now been recovered in `../Recovered_Experiment_Records_v0.9.0.zip`. This includes the RQ2 runner, final split, checkpoints and historical verification records. See the repository-root `EXPERIMENT_RECORDS_README.md`. Execution still requires permitted source data and configuration of historical paths; a clean-environment end-to-end replay has not been performed.
 
 Raw and processed FlightSketch trajectories are intentionally excluded. Do not add third-party trajectory files unless their redistribution is explicitly authorized and the required attribution and provenance records are retained.
