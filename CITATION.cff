@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or analysis package, please cite the archived release and the associated article."
+message: "If you use this software or analysis package, please cite the archived release."
 title: "Sparse trajectory reconstruction under kinematic constraints"
 type: software
 authors:
@@ -8,17 +8,21 @@ authors:
     affiliation: "Department of Aerospace Engineering, Izmir University of Economics"
     email: "kagan.yurtkolesi@std.iue.edu.tr"
 version: 0.9.0
+date-released: "2026-10-01"
+doi: "10.5281/zenodo.23080487"
 license: MIT
 repository-code: "https://github.com/kaganyurtk/sparse-trajectory-reconstruction"
-url: "https://github.com/kaganyurtk/sparse-trajectory-reconstruction"
+url: "https://doi.org/10.5281/zenodo.23080487"
 abstract: >-
-  Reproducibility materials for matched unconstrained and kinematically
-  constrained neural-network studies of sparse rocket-trajectory
-  reconstruction. The package contains the complete RQ1 Falcon 9 training,
-  validation, and held-out evaluation code together with safe RQ2 FlightSketch
-  data-curation and split-preparation utilities. Third-party telemetry,
-  processed trajectories, trained weights, and the unavailable historical RQ2
-  model-fitting runner are not included.
+  Reproducibility materials for unconstrained and kinematically constrained
+  neural-network studies of rocket-trajectory reconstruction. The archive
+  includes RQ1 training and evaluation code and recovered experiment packages
+  with NEXT-5, Iridium-family and RQ2 reconstruction v1.1 runners, manifests,
+  splits, checkpoints and historical verification records. RQ2 uses sparse
+  reconstruction inputs with complete fitting targets and dataset-specific
+  weights. Third-party raw telemetry is excluded. Execution requires permitted
+  source data and historical-path configuration; clean-environment end-to-end
+  replay is not claimed. Code is MIT; author-written documentation is CC BY 4.0.
 keywords:
   - rocket telemetry
   - trajectory reconstruction
@@ -26,10 +30,3 @@ keywords:
   - kinematic constraints
   - sparse observations
   - reproducibility
-preferred-citation:
-  type: article
-  title: "When kinematic constraints conflict with rocket telemetry: sparse trajectory reconstruction across two real-flight datasets"
-  authors:
-    - family-names: "Yurtkölesi"
-      given-names: "Kağan"
-  year: 2026
